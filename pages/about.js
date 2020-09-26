@@ -7,8 +7,8 @@ const Page = () => (
     <Head title="Home" />
     <Nav />
     <div className="hero">
-      <h1 className="title">Welcome to create-next-app-cli (Create Next.js App building tools)</h1>
-      <p className="description">To get started, edit <code>pages/index.js</code> and save to reload.</p>
+      <h1 className="title">About Us</h1>
+      <p className="description">We are a friendly group of people</p>
     </div>
 
     <style jsx>{`
