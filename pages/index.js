@@ -32,7 +32,7 @@ export default function Home() {
       <div className="main">
 
       <div className="coading bg-white">
-        <div className="container">
+        <div className="container bg-white">
           <div className="coading-in">
             <div className="coading-left">
               <Link href="#"><img
