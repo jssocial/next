@@ -50,6 +50,31 @@
     padding: 0 19px;
   }
 }
+
+@media only screen and (min-width: 1349px) {
+  .invest-sec {
+    padding: 0 120px;
+  }
+  .mission-sec {
+    padding: 0 100px;
+  }
+  .social-sec {
+    padding: 0 100px;
+  }
+  .navbar {
+    padding: 0 290px 0 320px;
+  }
+  .coading {
+    padding: 0 200px;
+  }
+  .coading-left {
+    padding-left: 150px;
+  }
+  .help-sec {
+    padding: 0 100px;
+  }
+}
+
 @media only screen and (max-width: 1149px) {
   .header-right {
     width: 77%;
