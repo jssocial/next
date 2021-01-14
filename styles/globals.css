@@ -15,10 +15,6 @@
   margin: 5px;
 }
 
-.navbar {
-  padding: 0 290px 0 320px;
-}
-
 .container {
   max-width: 1280px;
 }
@@ -330,16 +326,13 @@ nav ul li a {
   padding: 0px 15px;
   border-radius: 3px;
 }
-.coading {
-  padding: 0 200px;
-}
+
 .coading-in {
 }
 .coading-left {
   width: 60%;
   float: left;
   display: inline-block;
-  padding-left: 150px;
 }
 .coading-left a {
   display: block;
@@ -411,9 +404,7 @@ nav ul li a {
 .help {
   padding: 70px 0 70px 0;
 }
-.help-sec {
-  padding: 0 100px;
-}
+
 .help-sec > p {
   font-family: "NeueHaasGroteskTextPro-Medium";
   font-size: 20px;
@@ -490,9 +481,7 @@ nav ul li a {
 .social {
   padding: 60px 0 0 0;
 }
-.social-sec {
-  padding: 0 100px;
-}
+
 .social-sec p {
   font-family: "NeueHaasGroteskTextPro-Medium";
   font-size: 20px;
@@ -562,9 +551,7 @@ nav ul li a {
   background: #e2f6ff;
   padding: 76px 0 80px 0;
 }
-.mission-sec {
-  padding: 0 100px;
-}
+
 .mission-sec p {
   font-family: "SitkaSmall-Bold";
   font-size: 40px;
@@ -679,9 +666,30 @@ nav ul li a {
   background: #e2f6ff;
   padding: 15px 0 0 0;
 }
-.invest-sec {
-  padding: 0 120px;
+@media only screen and (min-width: 1349px) {
+  .invest-sec {
+    padding: 0 120px;
+  }
+  .mission-sec {
+    padding: 0 100px;
+  }
+  .social-sec {
+    padding: 0 100px;
+  }
+  .navbar {
+    padding: 0 290px 0 320px;
+  }
+  .coading {
+    padding: 0 200px;
+  }
+  .coading-left {
+    padding-left: 150px;
+  }
+  .help-sec {
+    padding: 0 100px;
+  }
 }
+
 .invest-sec-left {
   float: left;
   display: inline-block;
