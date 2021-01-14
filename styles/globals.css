@@ -7,3 +7,907 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.burger div {
+  width: 25px;
+  height: 5px;
+  background-color: black;
+  margin: 5px;
+}
+
+.navbar {
+  padding: 0 290px 0 320px;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+q:before,
+q:after {
+  content: "";
+}
+abbr,
+acronym {
+  border: 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  outline: 0 none !important; /*transition: all ease-in-out 0.5s;-webkit-transition:all ease-in-out 0.5s;*/
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: 0 none !important;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+}
+a:hover {
+}
+button {
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+}
+button:hover {
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: bold;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 22px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 12px;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+header,
+nav,
+section,
+article,
+aside,
+footer,
+hgroup,
+figure,
+main {
+  display: block;
+}
+.clear {
+  clear: both;
+  font-size: 1px;
+  line-height: 1px;
+  display: block;
+  height: 0;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  font-size: 1px;
+  line-height: 1px;
+  display: block;
+  height: 0;
+}
+.last {
+  margin: 0 !important;
+}
+.pad_last {
+  padding: 0 !important;
+}
+.no_bg {
+  background: none !important;
+}
+.no_bor {
+  border: 0 none !important;
+}
+.flt_lt {
+  float: left;
+  display: inline;
+}
+.flt_rt {
+  float: right;
+  display: inline;
+}
+/* reset.css ends here */
+
+@font-face {
+  font-family: "NeueHaasGroteskTextPro-Medium";
+  src: url(".././public/fonts/NeueHaasGroteskTextPro-Medium/NeueHaasGroteskTextPro-Medium.eot")
+      format("embedded-opentype"),
+    url(".././public/fonts/NeueHaasGroteskTextPro-Medium/NeueHaasGroteskTextPro-Medium.woff")
+      format("woff"),
+    url(".././public/fonts/NeueHaasGroteskTextPro-Medium/NeueHaasGroteskTextPro-Medium.ttf")
+      format("truetype"),
+    url(".././public/fonts/NeueHaasGroteskTextPro-Medium/NeueHaasGroteskTextPro-Medium.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SitkaSmall";
+  src: url(".././public/fonts/SitkaSmall/SitkaSmall.eot")
+      format("embedded-opentype"),
+    url(".././public/fonts/SitkaSmall/SitkaSmall.ttf") format("truetype"),
+    url(".././public/fonts/SitkaSmall/SitkaSmall.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueHaasGroteskTextPro-Bold";
+  src: url(".././public/fonts/NeueHaasGroteskTextPro-Bold/NeueHaasGroteskTextPro-Bold.eot")
+      format("embedded-opentype"),
+    url(".././public/fonts/NeueHaasGroteskTextPro-Bold/NeueHaasGroteskTextPro-Bold.woff")
+      format("woff"),
+    url(".././public/fonts/NeueHaasGroteskTextPro-Bold/NeueHaasGroteskTextPro-Bold.ttf")
+      format("truetype"),
+    url(".././public/fonts/NeueHaasGroteskTextPro-Bold/NeueHaasGroteskTextPro-Bold.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SitkaSmall-Bold";
+  src: url(".././public/fonts/SitkaSmall-Bold/SitkaSmall-Bold.eot")
+      format("embedded-opentype"),
+    url(".././public/fonts/SitkaSmall-Bold/SitkaSmall-Bold.ttf")
+      format("truetype"),
+    url(".././public/fonts/SitkaSmall-Bold/SitkaSmall-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueHaasGroteskTextPro";
+  src: url(".././public/fonts/NeueHaasGroteskTextPro/NeueHaasGroteskTextPro.eot")
+      format("embedded-opentype"),
+    url(".././public/fonts/NeueHaasGroteskTextPro/NeueHaasGroteskTextPro.woff")
+      format("woff"),
+    url(".././public/fonts/NeueHaasGroteskTextPro/NeueHaasGroteskTextPro.ttf")
+      format("truetype"),
+    url(".././public/fonts/NeueHaasGroteskTextPro/NeueHaasGroteskTextPro.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueHaasGroteskTextPro-Italic";
+  src: url(".././public/fonts/NeueHaasGroteskTextPro-Italic/NeueHaasGroteskTextPro-Italic.eot")
+      format("embedded-opentype"),
+    url(".././public/fonts/NeueHaasGroteskTextPro-Italic/NeueHaasGroteskTextPro-Italic.woff")
+      format("woff"),
+    url(".././public/fonts/NeueHaasGroteskTextPro-Italic/NeueHaasGroteskTextPro-Italic.ttf")
+      format("truetype"),
+    url(".././public/fonts/NeueHaasGroteskTextPro-Italic/NeueHaasGroteskTextPro-Italic.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  position: relative;
+  background: #fff;
+}
+/* LayOut Start here */
+.container {
+  max-width: 1194px;
+  margin: 0 auto;
+  box-sizing: border-box; /* border: 1px solid red; */
+}
+/*wrapper starts here*/
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+/*header starts here*/
+header {
+  background: #fff;
+}
+header.stick_header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+.header-sec {
+}
+.header-sec-in {
+  padding: 26px 0 0 0;
+}
+.logo {
+  width: 20%;
+  display: inline-block;
+  float: left;
+}
+.logo a {
+}
+.logo a img {
+}
+.header-right {
+  width: 76%;
+  display: inline-block;
+  float: right;
+  padding: 18px 0 0 0;
+}
+nav {
+  width: 80%;
+  float: left;
+  display: inline-block;
+}
+nav ul {
+}
+nav ul li {
+  float: left;
+  display: inline-block;
+  padding: 0 20px;
+}
+nav ul li a {
+  font-family: "NeueHaasGroteskTextPro-Bold";
+  font-size: 15px;
+  color: #0b0b0b;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 30px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.login {
+  width: 9.3%;
+  float: right;
+  display: inline-block;
+}
+.login a {
+  font-family: "NeueHaasGroteskTextPro-Bold";
+  font-size: 15px;
+  color: #0b0b0b;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 30px;
+  display: block;
+  text-decoration: none;
+  border: 1.5px solid #0b0b0b;
+  text-transform: uppercase;
+  padding: 0px 15px;
+  border-radius: 3px;
+}
+.coading {
+  padding: 0 200px;
+}
+.coading-in {
+}
+.coading-left {
+  width: 60%;
+  float: left;
+  display: inline-block;
+  padding-left: 150px;
+}
+.coading-left a {
+  display: block;
+  padding: 0 0 0 45px;
+}
+.coading-left a img {
+}
+.coading-right {
+  width: 52%;
+  display: inline-block;
+  margin: 60px 0 0 -210px;
+  padding: 40px 0 0 0;
+}
+.coading-right p {
+  font-family: "NeueHaasGroteskTextPro-Medium";
+  font-size: 25px;
+  color: #0b0b0b;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 30px;
+  padding: 0 0 10px 12px;
+}
+.coading-right h1 {
+  font-family: "SitkaSmall-Bold";
+  font-size: 75px;
+  color: #0b0b0b;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 78px;
+  letter-spacing: -1.7px;
+  word-spacing: -4px;
+  padding: 0 0 9px 0;
+}
+.talk {
+  width: 300px;
+  display: inline-block;
+  padding: 0 0 0 12px;
+}
+.talk ul {
+  margin: 0 -10px;
+}
+.talk ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+.talk ul li a {
+  font-family: "NeueHaasGroteskTextPro-Bold";
+  font-size: 15px;
+  color: #0b0b0b;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 20px;
+  display: block;
+  text-decoration: none;
+  border: 1.5px solid #0b0b0b;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 3px;
+}
+.talk ul li.active a,
+.talk ul li a:hover {
+  color: #ffffff;
+  background: #0b0b0b;
+}
+
+.help {
+  padding: 70px 0 70px 0;
+}
+.help-sec {
+  padding: 0 100px;
+}
+.help-sec > p {
+  font-family: "NeueHaasGroteskTextPro-Medium";
+  font-size: 20px;
+  color: #e7a366;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 25px;
+  text-align: center;
+  padding: 0 0 26px 0;
+}
+.help-sec h2 {
+  font-family: "SitkaSmall-Bold";
+  font-size: 55px;
+  color: #0b0b0b;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -3.4px;
+}
+.help-sec ul {
+  margin: 0 -15px;
+  padding: 56px 0 0 0;
+}
+.help-sec ul li {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  padding: 0 15px;
+}
+.help-sec ul li.active a.help-in p span,
+.help-sec ul li:hover .help-in p span {
+  color: #0d3b4c !important;
+}
+.help-sec ul li.active a.help-in p,
+.help-sec ul li:hover .help-in p {
+  color: #0d3b4c !important;
+}
+.help-sec ul li a {
+  display: block;
+}
+.help-in {
+  display: inline-block;
+  text-align: center;
+}
+.help-in figure {
+}
+.help-in figure img {
+  display: inline-block;
+}
+.help-in p span {
+  font-family: "NeueHaasGroteskTextPro-Bold";
+  font-size: 20px;
+  color: #000000;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 25px;
+  display: block;
+  padding: 14px 0 13px 0;
+}
+.help-in p {
+  font-family: "NeueHaasGroteskTextPro";
+  font-size: 16px;
+  color: #000000;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 22px;
+  display: inline-block;
+}
+
+.teach {
+  padding: 25px 0 25px 0 !important;
+}
+.social {
+  padding: 60px 0 0 0;
+}
+.social-sec {
+  padding: 0 100px;
+}
+.social-sec p {
+  font-family: "NeueHaasGroteskTextPro-Medium";
+  font-size: 20px;
+  color: #e7a366;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 25px;
+  text-align: center;
+  padding: 0 0 26px 0;
+}
+.social-sec h2 {
+  font-family: "SitkaSmall-Bold";
+  font-size: 55px;
+  color: #0b0b0b;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -2.4px;
+  padding: 0 0 40px 0;
+}
+.social-in {
+  padding: 40px 0 40px 0;
+}
+.social-in-left {
+  float: left;
+  display: inline-block;
+  width: 50%;
+}
+.social-in-left ul {
+}
+.social-in-left ul li {
+  display: block;
+  padding: 0 0 40px 0;
+}
+.social-in-left ul li h3 {
+  font-family: "NeueHaasGroteskTextPro-Bold";
+  font-size: 30px;
+  color: #0b0b0b;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 23px;
+  border-left: 5px solid #e7a366;
+  padding: 0 0 0px 10px;
+}
+.social-in-left ul li p {
+  font-family: "NeueHaasGroteskTextPro";
+  font-size: 18px;
+  color: #0d3b4c;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 27px;
+  text-align: left;
+  padding: 15px 0 0 0;
+  letter-spacing: 0.1px;
+}
+.social-in-right {
+  float: right;
+  display: inline-block;
+  width: 45%;
+}
+.social-in-right a {
+}
+.social-in-right a img {
+}
+.mission {
+  background: #e2f6ff;
+  padding: 76px 0 80px 0;
+}
+.mission-sec {
+  padding: 0 100px;
+}
+.mission-sec p {
+  font-family: "SitkaSmall-Bold";
+  font-size: 40px;
+  color: #0d3b4c;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: -2.7px;
+  position: relative;
+}
+.mission-sec p:before {
+  content: "";
+  background: url(".././public/images/quat1.png") no-repeat;
+  width: 36px;
+  height: 30px;
+  display: block;
+  left: 7.5%;
+  position: absolute;
+  top: 2%;
+  z-index: 0;
+}
+.testi {
+  padding: 94px 0 43px 0;
+}
+.testi-sec {
+}
+.testi-sec > p {
+  font-family: "NeueHaasGroteskTextPro-Medium";
+  font-size: 20px;
+  color: #0f2d38;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 25px;
+  text-align: center;
+  padding: 0 0 26px 0;
+}
+.testi-sec h2 {
+  font-family: "SitkaSmall-Bold";
+  font-size: 55px;
+  color: #0b0b0b;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+.testi-sec ul {
+  margin: 0 -15px;
+  padding: 40px 0 43px 0;
+}
+.testi-sec ul li {
+  display: inline-block;
+  float: left;
+  width: 33.33%;
+  padding: 0 15px;
+  position: relative;
+}
+.testi-sec ul li:before {
+  content: "";
+  background: url(".././public/images/quat.png") no-repeat;
+  width: 36px;
+  height: 30px;
+  display: block;
+  left: 10%;
+  position: absolute;
+  top: 7%;
+  z-index: 0;
+}
+.testi-sec ul li a {
+}
+.testi-in {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  padding: 50px 30px;
+}
+.testi-in figure {
+}
+.testi-in figure img {
+  display: inline-block;
+}
+.testi-in span {
+  font-family: "NeueHaasGroteskTextPro-Bold";
+  font-size: 20px;
+  color: #000000;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 25px;
+  display: block;
+  padding: 14px 0 13px 0;
+}
+.testi-in > p {
+  font-family: "NeueHaasGroteskTextPro-Italic";
+  font-size: 16px;
+  color: #0d3b4c;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 23px;
+  padding: 0;
+}
+.testi-sec ul li.active a,
+.testi-sec ul li:hover .testi-in {
+  background: #fff6ee;
+  border: 1px solid #fff6ee !important;
+}
+.testi-sec ul li.active a p,
+.testi-sec ul li:hover .testi-in > p {
+  color: #000000 !important;
+}
+.invest {
+  background: #e2f6ff;
+  padding: 15px 0 0 0;
+}
+.invest-sec {
+  padding: 0 120px;
+}
+.invest-sec-left {
+  float: left;
+  display: inline-block;
+  width: 37.2%;
+}
+.invest-sec-left a {
+}
+.invest-sec-left a img {
+}
+.invest-sec-right {
+  float: right;
+  display: inline-block;
+  width: 57%;
+  padding: 75px 0px 0 0px;
+}
+.invest-sec-right h2 {
+  font-family: "NeueHaasGroteskTextPro-Bold";
+  font-size: 55px;
+  color: #0d3b4c;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 60px;
+}
+.invest-sec-right span {
+  font-family: "NeueHaasGroteskTextPro-Medium";
+  font-size: 25px;
+  color: #0d3b4c;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 30px;
+  display: block;
+  padding: 20px 0 25px 0;
+}
+form {
+}
+form ul {
+}
+form ul li {
+  display: inline-block;
+  width: 39.93%;
+  float: left;
+}
+form ul li input {
+  outline: none;
+  padding: 15px 25px;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "NeueHaasGroteskTextPro";
+  letter-spacing: 0.2px;
+  width: 96%;
+}
+form ul li a {
+  background: #f65671;
+  outline: none;
+  padding: 13.3px 30px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 19px;
+  line-height: 23px;
+  cursor: pointer;
+  font-family: "NeueHaasGroteskTextPro-Medium";
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.sign {
+  width: 20.03%;
+}
+.online {
+  background: #fff6ee;
+  padding: 82px 0;
+}
+.online-sec {
+}
+.online-sec h3 {
+  font-family: "SitkaSmall-Bold";
+  font-size: 37px;
+  color: #0d3b4c;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -1.8px;
+  word-spacing: -2px;
+  padding: 0 0 20px 0;
+}
+.online-sec p {
+  font-family: "NeueHaasGroteskTextPro-Italic";
+  font-size: 30px;
+  color: #0d3b4c;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 34px;
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+.online-sec a {
+  background: #f65671;
+  outline: none;
+  padding: 13.3px 20px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 19px;
+  line-height: 23px;
+  cursor: pointer;
+  font-family: "NeueHaasGroteskTextPro-Medium";
+  text-decoration: none;
+  display: block;
+  width: 154px;
+  margin: 0 auto;
+  letter-spacing: 0.6px;
+}
+footer {
+}
+.footer-top {
+  border-bottom: 1px solid #fff6ee;
+  padding: 60px 0 40px 0;
+}
+.footer-top-in {
+}
+.footer-top-in ul {
+  margin: 0 -35px;
+}
+.footer-top-in ul li {
+  float: left;
+  display: inline-block;
+  width: 33.33%;
+  padding: 0 35px 4px;
+}
+.address {
+}
+.address h4 {
+  font-family: "NeueHaasGroteskTextPro-Bold";
+  font-size: 20px;
+  color: #0d3b4c;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 25px;
+  padding: 0 0 20px 0;
+}
+.address address {
+  color: #0d3b4c;
+  font-size: 16px;
+  line-height: 27px;
+  font-family: "NeueHaasGroteskTextPro";
+  font-weight: normal;
+  font-style: normal;
+  padding: 0 0 15px 0;
+}
+.address p {
+  color: #0d3b4c;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "NeueHaasGroteskTextPro";
+  font-weight: normal;
+  font-style: normal;
+}
+.address > a {
+  font-family: "NeueHaasGroteskTextPro-Bold";
+  font-size: 38px;
+  color: #0d3b4c;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 42px;
+  text-decoration: none;
+  padding: 0 0 15px 0;
+  display: block;
+}
+.address.links {
+}
+.address.links ul {
+  padding: 0 0 30px 0;
+}
+.address.links ul li {
+  display: block;
+  width: 100%;
+}
+.address.links ul li a {
+  color: #0d3b4c;
+  font-size: 15px;
+  line-height: 22px;
+  font-family: "NeueHaasGroteskTextPro";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  display: block;
+}
+.address p a {
+  color: #f65671;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "NeueHaasGroteskTextPro";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  display: inline-block;
+}
+.footer-bottom {
+  padding: 30px 0 30px 0;
+}
+.footer-bottom-in {
+}
+.footer-bottom-in p {
+  color: #0d3b4c;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "NeueHaasGroteskTextPro";
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+
+.menu-icon {
+  display: none;
+}
+.side-bar {
+  display: none;
+}
+
+.slogan {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}

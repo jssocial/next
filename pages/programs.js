@@ -1,12 +1,11 @@
 import Head from 'next/head';
-import Nav from "../components/Nav";
-import Footer from "../components/Footer";
 import Link from 'next/link';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 export default function Programs() {
   return (
     <div className="programs-div">
-
       <Nav />
 
       <section>
@@ -17,21 +16,28 @@ export default function Programs() {
                 Trusted by developers from over 80 planets
               </h2>
               <p className="mt-3 text-xl leading-7 text-gray-500 sm:mt-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat laudantium.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellendus repellat laudantium.
               </p>
             </div>
           </div>
           <div className="mt-10 pb-12 bg-white sm:pb-16">
             <div className="relative">
-              <div className="absolute inset-0 h-1/2 bg-gray-50"></div>
+              <div className="absolute inset-0 h-1/2 bg-gray-50" />
               <div className="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="max-w-4xl mx-auto">
                   <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
                     <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
-                      <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500" id="item-1">
+                      <dt
+                        className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500"
+                        id="item-1"
+                      >
                         Pepperoni
                       </dt>
-                      <dd className="order-1 text-5xl leading-none font-extrabold text-indigo-600" aria-describedby="item-1">
+                      <dd
+                        className="order-1 text-5xl leading-none font-extrabold text-indigo-600"
+                        aria-describedby="item-1"
+                      >
                         100%
                       </dd>
                     </div>
@@ -57,9 +63,7 @@ export default function Programs() {
             </div>
           </div>
         </div>
-
       </section>
-
 
       <section>
         <div className="bg-gray-100">
@@ -70,14 +74,15 @@ export default function Programs() {
                   No Gimmicks, 30-days Trial
                 </h2>
                 <p className="mt-4 text-xl leading-7 text-gray-600">
-                  If you're not satisfied, contact us within the first 14 days and we'll send you a full refund.
+                  If you're not satisfied, contact us within the first 14 days
+                  and we'll send you a full refund.
                 </p>
               </div>
             </div>
           </div>
           <div className="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-28">
             <div className="relative">
-              <div className="absolute inset-0 h-1/2 bg-gray-100"></div>
+              <div className="absolute inset-0 h-1/2 bg-gray-100" />
               <div className="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
                   <div className="bg-white px-6 py-8 lg:p-12">
@@ -85,21 +90,31 @@ export default function Programs() {
                       Lifetime Membership
                     </h3>
                     <p className="mt-6 text-base leading-6 text-gray-500">
-                      Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis repellendus etur quidem assumenda.
+                      Lorem ipsum dolor sit amet consect etur adipisicing elit.
+                      Itaque amet indis perferendis blanditiis repellendus etur
+                      quidem assumenda.
                     </p>
                     <div className="mt-8">
                       <div className="flex items-center">
                         <h4 className="flex-shrink-0 pr-4 bg-white text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
                           What's included
                         </h4>
-                        <div className="flex-1 border-t-2 border-gray-200"></div>
+                        <div className="flex-1 border-t-2 border-gray-200" />
                       </div>
                       <ul className="mt-8 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5">
                         <li className="flex items-start lg:col-span-1">
                           <div className="flex-shrink-0">
                             {/*  Heroicon name: check-circle  */}
-                            <svg className="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            <svg
+                              className="h-5 w-5 text-green-400"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                clipRule="evenodd"
+                              />
                             </svg>
                           </div>
                           <p className="ml-3 text-sm leading-5 text-gray-700">
@@ -109,8 +124,16 @@ export default function Programs() {
                         <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
                           <div className="flex-shrink-0">
                             {/* Heroicon name: check-circle */}
-                            <svg className="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            <svg
+                              className="h-5 w-5 text-green-400"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                clipRule="evenodd"
+                              />
                             </svg>
                           </div>
                           <p className="ml-3 text-sm leading-5 text-gray-700">
@@ -120,8 +143,16 @@ export default function Programs() {
                         <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
                           <div className="flex-shrink-0">
                             {/* Heroicon name: check-circle */}
-                            <svg className="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            <svg
+                              className="h-5 w-5 text-green-400"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                clipRule="evenodd"
+                              />
                             </svg>
                           </div>
                           <p className="ml-3 text-sm leading-5 text-gray-700">
@@ -131,8 +162,16 @@ export default function Programs() {
                         <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
                           <div className="flex-shrink-0">
                             {/*  Heroicon name: check-circle */}
-                            <svg className="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            <svg
+                              className="h-5 w-5 text-green-400"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                clipRule="evenodd"
+                              />
                             </svg>
                           </div>
                           <p className="ml-3 text-sm leading-5 text-gray-700">
@@ -147,33 +186,35 @@ export default function Programs() {
                       Pay once, own it forever
                     </p>
                     <div className="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold text-gray-900">
-                      <span>
-                        $349
-                      </span>
+                      <span>$349</span>
                       <span className="ml-3 text-xl leading-7 font-medium text-gray-500">
                         USD
                       </span>
                     </div>
                     <p className="mt-4 text-sm leading-5">
-                      <Link href="#" className="font-medium text-gray-500 underline">
-                        Learn about our membership policy
+                      <Link href="#">
+                        <a className="font-medium text-gray-500 underline">
+                          Learn about our membership policy
+                        </a>
                       </Link>
                     </p>
                     <div className="mt-6">
                       <div className="rounded-md shadow">
-                        <Link href="#" className="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-                          Get Access
+                        <Link href="#">
+                          <a className="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+                            Get Access
+                          </a>
                         </Link>
                       </div>
                     </div>
                     <div className="mt-4 text-sm leading-5">
-                      <Link href="#" className="font-medium text-gray-900">
-                      <div className="programs-link-div">
-                        Get a free sample
-                        <span className="font-normal text-gray-500">
-                          (20MB)
-                        </span>
-                        </div>
+                      <Link href="#">
+                        <a className="font-medium text-gray-900">
+                          Get a free sample
+                          <span className="font-normal text-gray-500">
+                            (20MB)
+                          </span>
+                        </a>
                       </Link>
                     </div>
                   </div>
@@ -182,9 +223,8 @@ export default function Programs() {
             </div>
           </div>
         </div>
-
       </section>
       <Footer />
     </div>
-  )}
-
+  );
+}
