@@ -29,7 +29,7 @@ export default function Home() {
 
       <Nav />
 
-      <div className="main">
+      <div className="main bg-white">
 
       <div className="coading bg-white">
         <div className="container bg-white">
