@@ -11,7 +11,7 @@ return (
           <div className="container">
             <div className="header-sec-in">
               <div className="logo">
-                <Link href="index.html"
+                <Link href="/"
                   ><img
                     src="images/logo.png"
                     alt="logo"
