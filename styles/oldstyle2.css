@@ -53,13 +53,13 @@
 
 @media only screen and (min-width: 1349px) {
   .invest-sec {
-    padding: 0 120px;
+    padding: 0 60px;
   }
   .mission-sec {
-    padding: 0 100px;
+    padding: 0 200px;
   }
   .social-sec {
-    padding: 0 100px;
+    padding: 0 50px;
   }
   .navbar {
     padding: 0 290px 0 320px;
@@ -68,10 +68,10 @@
     padding: 0 200px;
   }
   .coading-left {
-    padding-left: 150px;
+    padding-left: 50px;
   }
   .help-sec {
-    padding: 0 100px;
+    padding: 0 50px;
   }
 }
 
