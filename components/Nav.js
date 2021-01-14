@@ -27,10 +27,10 @@ return (
               <div className="header-right">
                 <nav>
                   <ul className="clearfix">
-                    <li><Link href="about.html">About</Link></li>
-                    <li><Link href="mentors.html">Mentors</Link></li>
-                    <li><Link href="programs.html">Programs</Link></li>
-                    <li><Link href="membership.html"> Membership </Link></li>
+                    <li><Link href="/about">About</Link></li>
+                    <li><Link href="/mentors">Mentors</Link></li>
+                    <li><Link href="/programs">Programs</Link></li>
+                    <li><Link href="/membership"> Membership </Link></li>
                   </ul>
                 </nav>
                 <div className="login">
