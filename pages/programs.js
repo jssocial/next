@@ -39,7 +39,9 @@ export default function Programs() {
               JS.Social Current Stats
             </h2>
             <p className="mt-6 text-lg text-gray-500">
-              We've just started to out journey as a Community and Course. However even though we're at the beginning, we are proud of our students, mentors, and our stats!
+              We've just started to out journey as a Community and Course.
+              However even though we're at the beginning, we are proud of our
+              students, mentors, and our stats!
             </p>
             <div className="mt-8 overflow-hidden">
               <dl className="-mx-8 -mt-8 flex flex-wrap">
@@ -48,12 +50,12 @@ export default function Programs() {
                     3
                   </dt>
                   <dd className="order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
-                  Completed Projects with Groups 
+                    Completed Projects with Groups
                   </dd>
                 </div>
                 <div className="flex flex-col px-8 pt-8">
                   <dt className="order-2 text-lg font-medium text-gray-500">
-                  1 (Jae Lee)
+                    1 (Jae Lee)
                   </dt>
                   <dd className="order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
                     Mentor Count
@@ -61,7 +63,7 @@ export default function Programs() {
                 </div>
                 <div className="flex flex-col px-8 pt-8">
                   <dt className="order-2 text-lg font-medium text-gray-500">
-                  1 (Mert Efe)
+                    1 (Mert Efe)
                   </dt>
                   <dd className="order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
                     Students
@@ -371,7 +373,9 @@ export default function Programs() {
                             </svg>
                           </div>
                           <p className="ml-3 text-base font-medium text-gray-500">
-                            Being able to work with highly motivated people, or people who are more experienced, will keep you pushing yourself forward.
+                            Being able to work with highly motivated people, or
+                            people who are more experienced, will keep you
+                            pushing yourself forward.
                           </p>
                         </li>
                       </ul>
