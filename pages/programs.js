@@ -6,7 +6,7 @@ export default function Programs() {
   return (
     <div className="programs-div">
       <Nav />
-      <div className="relative bg-white mt-20">
+      <div className="program-upper relative bg-white mt-20">
         <div className="h-56 rounded-full sm:h-72 pl-10 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
           <img
             className="w-full h-full object-cover"
@@ -44,27 +44,27 @@ export default function Programs() {
             <div className="mt-8 overflow-hidden">
               <dl className="-mx-8 -mt-8 flex flex-wrap">
                 <div className="flex flex-col px-8 pt-8">
-                  <dt className="order-2 text-base font-medium text-gray-500">
-                    Completed Projects with Groups
+                  <dt className="order-2 text-lg font-medium text-gray-500">
+                    3
                   </dt>
                   <dd className="order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
-                    3 
+                  Completed Projects with Groups 
                   </dd>
                 </div>
                 <div className="flex flex-col px-8 pt-8">
-                  <dt className="order-2 text-base font-medium text-gray-500">
+                  <dt className="order-2 text-lg font-medium text-gray-500">
+                  1 (Jae Lee)
+                  </dt>
+                  <dd className="order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
                     Mentor Count
-                  </dt>
-                  <dd className="order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
-                    1 (Jae Lee)
                   </dd>
                 </div>
                 <div className="flex flex-col px-8 pt-8">
-                  <dt className="order-2 text-base font-medium text-gray-500">
-                    Students
+                  <dt className="order-2 text-lg font-medium text-gray-500">
+                  1 (Mert Efe)
                   </dt>
                   <dd className="order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
-                    1 (Mert Efe)
+                    Students
                   </dd>
                 </div>
               </dl>
