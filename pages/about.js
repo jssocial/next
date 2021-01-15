@@ -62,6 +62,7 @@ export default function About() {
                             <img
                               src="https://i.ibb.co/vw3ZM9t/jae.jpg"
                               className="rounded-lg shadow-lg object-cover object-center absolute inset-0 w-full h-full lg:static lg:h-auto"
+                              alt="Jae_Lee_Pic"
                             />
                           </div>
                           <figcaption className="flex mt-3 text-sm text-gray-500">
