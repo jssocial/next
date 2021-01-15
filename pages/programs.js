@@ -6,14 +6,80 @@ export default function Programs() {
   return (
     <div className="programs-div">
       <Nav />
+      <div className="relative bg-white mt-20">
+        <div className="h-56 rounded-full sm:h-72 pl-10 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
+          <img
+            className="w-full h-full object-cover"
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+            alt="Support team"
+          />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-16">
+          <div className="max-w-2xl mx-auto lg:max-w-none lg:mr-0 lg:ml-auto lg:w-1/2 lg:pl-10">
+            <div>
+              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-gray-800 text-white">
+                <svg
+                  className="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h2 className="mt-6 text-3xl font-extrabold text-gray-900 sm:text-4xl">
+              JS.Social Current Stats
+            </h2>
+            <p className="mt-6 text-lg text-gray-500">
+              We've just started to out journey as a Community and Course. However even though we're at the beginning, we are proud of our students, mentors, and our stats!
+            </p>
+            <div className="mt-8 overflow-hidden">
+              <dl className="-mx-8 -mt-8 flex flex-wrap">
+                <div className="flex flex-col px-8 pt-8">
+                  <dt className="order-2 text-base font-medium text-gray-500">
+                    Completed Projects with Groups
+                  </dt>
+                  <dd className="order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
+                    3 
+                  </dd>
+                </div>
+                <div className="flex flex-col px-8 pt-8">
+                  <dt className="order-2 text-base font-medium text-gray-500">
+                    Mentor Count
+                  </dt>
+                  <dd className="order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
+                    1 (Jae Lee)
+                  </dd>
+                </div>
+                <div className="flex flex-col px-8 pt-8">
+                  <dt className="order-2 text-base font-medium text-gray-500">
+                    Students
+                  </dt>
+                  <dd className="order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
+                    1 (Mert Efe)
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="bg-gray-600 mt-20">
         <div className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
           <div className="text-center">
             <h2 className="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">
-              PRICEMENT FOR
+              PRICEMENTS FOR
             </h2>
-            <p className="mt- text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+            <p className="mt- text-3xl tracking-wide py-4 font-extrabold text-white sm:text-4xl lg:text-5xl">
               JS.SOCIAL MEMBERSHIP PACKAGES
             </p>
             <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
@@ -527,7 +593,12 @@ export default function Programs() {
                   What happens after I finish this course?
                 </dt>
                 <dd className="mt-2 text-base  text-white font-normal tracking-wide">
-                  <span>&#8220;</span>There's no end time for the course you can expand your Membership whenever it ends, or upgrade it to a more advanced one. However even if you finish our smallest package for a month, we believe you will have a great value from that course and will be informed in a good level.<span>&#8221;</span>
+                  <span>&#8220;</span>There's no end time for the course you can
+                  expand your Membership whenever it ends, or upgrade it to a
+                  more advanced one. However even if you finish our smallest
+                  package for a month, we believe you will have a great value
+                  from that course and will be informed in a good level.
+                  <span>&#8221;</span>
                   <p className="text-gray-700 pt-4 font-bold">
                     <i>Answered by Mentor Jae Lee</i>
                   </p>
@@ -539,7 +610,12 @@ export default function Programs() {
                   Will Mentors will have with my Portfolio ?
                 </dt>
                 <dd className="mt-2 text-base  text-white font-normal tracking-wide">
-                  <span>&#8220;</span>You will be able to put the Group Projects to your portfolio if you've taken the Premium Membership, and that will make you standout at high level ! Other than that our Front End Mentor Team will inspect your Portfolio and will give you the most realest sector-level headed advice to improve on.<span>&#8221;</span>
+                  <span>&#8220;</span>You will be able to put the Group Projects
+                  to your portfolio if you've taken the Premium Membership, and
+                  that will make you standout at high level ! Other than that
+                  our Front End Mentor Team will inspect your Portfolio and will
+                  give you the most realest sector-level headed advice to
+                  improve upon.<span>&#8221;</span>
                   <p className="text-gray-700 pt-4 font-bold">
                     <i>Answered by Mentor Jae Lee</i>
                   </p>
