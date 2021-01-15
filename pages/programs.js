@@ -371,7 +371,7 @@ export default function Programs() {
                             </svg>
                           </div>
                           <p className="ml-3 text-base font-medium text-gray-500">
-                            Nam ut ipsa nesciunt culpa modi dolor
+                            Being able to work with highly motivated people, or people who are more experienced, will keep you pushing yourself forward.
                           </p>
                         </li>
                       </ul>
@@ -379,7 +379,7 @@ export default function Programs() {
                         <div className="rounded-lg shadow-md">
                           <a
                             href="#"
-                            className="block w-full text-center rounded-lg border border-transparent bg-black px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-indigo-700"
+                            className="block w-full text-center rounded-lg border border-transparent bg-black px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-gray-700"
                             aria-describedby="tier-growth"
                           >
                             Start your trial
@@ -553,7 +553,7 @@ export default function Programs() {
 
               <div>
                 <dt className="text-lg leading-6 font-bold text-white pb-4">
-                  How fast I can learn ?
+                  How fast can I learn ?
                 </dt>
                 <dd className="mt-2 text-base text-white font-normal tracking-wide">
                   <span>&#8220;</span>Swiftness varies person to person however,
@@ -607,7 +607,7 @@ export default function Programs() {
 
               <div>
                 <dt className="text-lg leading-6 font-bold text-white pb-4">
-                  Will Mentors will have with my Portfolio ?
+                  Will Mentors help me with my Portfolio ?
                 </dt>
                 <dd className="mt-2 text-base  text-white font-normal tracking-wide">
                   <span>&#8220;</span>You will be able to put the Group Projects
