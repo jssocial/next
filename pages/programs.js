@@ -524,12 +524,10 @@ export default function Programs() {
 
               <div>
                 <dt className="text-lg leading-6 font-bold text-white pb-4">
-                  What do you call someone with no body and no nose?
+                  What happens after I finish this course?
                 </dt>
                 <dd className="mt-2 text-base  text-white font-normal tracking-wide">
-                  <span>&#8220;</span>Nobody knows. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Quas cupiditate laboriosam
-                  fugiat.<span>&#8221;</span>
+                  <span>&#8220;</span>There's no end time for the course you can expand your Membership whenever it ends, or upgrade it to a more advanced one. However even if you finish our smallest package for a month, we believe you will have a great value from that course and will be informed in a good level.<span>&#8221;</span>
                   <p className="text-gray-700 pt-4 font-bold">
                     <i>Answered by Mentor Jae Lee</i>
                   </p>
@@ -538,12 +536,10 @@ export default function Programs() {
 
               <div>
                 <dt className="text-lg leading-6 font-bold text-white pb-4">
-                  Why did the invisible man turn down the job offer?
+                  Will Mentors will have with my Portfolio ?
                 </dt>
                 <dd className="mt-2 text-base  text-white font-normal tracking-wide">
-                  <span>&#8220;</span>He couldn&#039;t see himself doing it.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                  cupiditate laboriosam fugiat.<span>&#8221;</span>
+                  <span>&#8220;</span>You will be able to put the Group Projects to your portfolio if you've taken the Premium Membership, and that will make you standout at high level ! Other than that our Front End Mentor Team will inspect your Portfolio and will give you the most realest sector-level headed advice to improve on.<span>&#8221;</span>
                   <p className="text-gray-700 pt-4 font-bold">
                     <i>Answered by Mentor Jae Lee</i>
                   </p>
