@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Link from 'next/link';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
@@ -6,9 +5,7 @@ import Footer from '../components/Footer';
 export default function Home() {
   return (
     <div>
-
       <Nav />
-
       <div className="main bg-white">
         <div className="coading bg-white">
           <div className="container">
@@ -25,7 +22,9 @@ export default function Home() {
               </div>
               <div className="coading-right">
                 <p>A membership-based</p>
-                <h1>Javascript <br/> Community</h1>
+                <h1>
+                  Javascript <br /> Community
+                </h1>
                 <div className="talk">
                   <ul className="cleafix">
                     <li className="active">

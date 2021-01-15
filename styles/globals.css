@@ -666,29 +666,6 @@ nav ul li a {
   background: #e2f6ff;
   padding: 15px 0 0 0;
 }
-@media only screen and (min-width: 1349px) {
-  .invest-sec {
-    padding: 0 120px;
-  }
-  .mission-sec {
-    padding: 0 100px;
-  }
-  .social-sec {
-    padding: 0 100px;
-  }
-  .navbar {
-    padding: 0 290px 0 320px;
-  }
-  .coading {
-    padding: 0 200px;
-  }
-  .coading-left {
-    padding-left: 150px;
-  }
-  .help-sec {
-    padding: 0 100px;
-  }
-}
 
 .invest-sec-left {
   float: left;
@@ -919,3 +896,22 @@ footer {
   margin-bottom: 10px;
   font-size: 1.5rem;
 }
+
+.nav-class {
+  background: blue;
+}
+
+.change .line-1 {
+  transform: rotateZ(-46deg) translate(-6px, 6px);
+  font-weight: bold;
+}
+
+.change .line-2 {
+  opacity: 0;
+}
+
+.change .line-3 {
+  transform: rotateZ(45deg) translate(-8px, -6px);
+  font-weight: bold;
+}
+

@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Link from 'next/link';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
@@ -16,11 +15,11 @@ export default function About() {
                 <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
                   <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
                   <div className="mx-auto text-base max-w-prose lg:max-w-none">
-                    <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
-                      Case Study
+                    <p className="text-lg leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+                      MEET WITH THE MENTOR
                     </p>
-                    <h1 className="mt-2 mb-8 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-                      Meet Whitney
+                    <h1 className="tracking-normal mt-2 mb-8 text-4xl leading-8 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+                      Jae Lee
                     </h1>
                   </div>
                   <div className="lg:grid lg:grid-cols-2 lg:gap-8">
@@ -60,13 +59,8 @@ export default function About() {
                       <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
                         <figure>
                           <div className="relative pb-7/12 lg:pb-0">
-                            <img
-                              src="https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80"
-                              alt=""
-                              width="1184"
-                              height="1376"
-                              className="rounded-lg shadow-lg object-cover object-center absolute inset-0 w-full h-full lg:static lg:h-auto"
-                            />
+                            <img src="https://i.ibb.co/vw3ZM9t/jae.jpg"
+                              className="rounded-lg shadow-lg object-cover object-center absolute inset-0 w-full h-full lg:static lg:h-auto" />
                           </div>
                           <figcaption className="flex mt-3 text-sm text-gray-500">
                             {/* Heroicon name: camera */}
@@ -81,69 +75,32 @@ export default function About() {
                                 clipRule="evenodd"
                               />
                             </svg>
-                            Photograph by Marcus O’Leary
+                            Photograph taken by Bootcamp Student James
                           </figcaption>
                         </figure>
                       </div>
                     </div>
                     <div>
-                      <div className="text-base max-w-prose mx-auto lg:max-w-none">
+                      <div className="tracking-wider text-base max-w-prose mx-auto lg:max-w-none">
                         <p className="text-lg leading-7 text-gray-500 mb-5">
-                          Sagittis scelerisque nulla cursus in enim consectetur
-                          quam. Dictum urna sed consectetur neque tristique
-                          pellentesque. Blandit amet, sed aenean erat arcu
-                          morbi.
+                          Meet with our Mentor, Founder and CEO, Jae Lee. He offers consultations and best practices on the way to becoming a fully developed
+                          full stack developer. He gives the most practical ways to approach to the problems, and provides paths so a person be able to think themselves out of the problems.
                         </p>
                       </div>
-                      <div className="prose text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-                        <p>
-                          Sollicitudin tristique eros erat odio sed vitae,
-                          consequat turpis elementum. Lorem nibh vel, eget
-                          pretium arcu vitae. Eros eu viverra donec ut volutpat
-                          donec laoreet quam urna.
+                      <div className="tracking-wider prose text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+                        <p className="pt-6">
+                          Compared to the other practices, the way Jae Lee goes with his teaching is that, he prompts the student to learn the material on his own,
+                          so he will get used to struggle, debugging, and finding his own way out of problems. This is the essential niche of being a programmer.
                         </p>
-                        <p>
-                          Bibendum eu nulla feugiat justo, elit adipiscing. Ut
-                          tristique sit nisi lorem pulvinar. Urna, laoreet fusce
-                          nibh leo. Dictum et et et sit. Faucibus sed non
-                          gravida lectus dignissim imperdiet a.
+                        <p className="pt-6">
+                          These days the React is on the rise and JavaScript is becoming more and more popular. While knowing that it isn't simply easy for a fresh beginner's to
+                          get a good grip on them easily, especially for people without a background in CS degree. It takes time to do things, and Jae Lee knows that, as himself being a Self-Taught dev who walked the walk, he
+                          is more mature with his advices and practices to the beginners and more down to earth.
                         </p>
-                        <p>
-                          Dictum magnis risus phasellus vitae quam morbi. Quis
-                          lorem lorem arcu, metus, egestas netus cursus. In.
-                        </p>
-                        <ul>
-                          <li>Quis elit egestas venenatis mattis dignissim.</li>
-                          <li>
-                            Cras cras lobortis vitae vivamus ultricies facilisis
-                            tempus.
-                          </li>
-                          <li>
-                            Orci in sit morbi dignissim metus diam arcu pretium.
-                          </li>
-                        </ul>
-                        <p>
-                          Rhoncus nisl, libero egestas diam fermentum dui. At
-                          quis tincidunt vel ultricies. Vulputate aliquet velit
-                          faucibus semper. Pellentesque in venenatis vestibulum
-                          consectetur nibh id. In id ut tempus egestas. Enim sit
-                          aliquam nec, a. Morbi enim fermentum lacus in.
-                          Viverra.
-                        </p>
-                        <h2>How we helped</h2>
-                        <p>
-                          Tincidunt integer commodo, cursus etiam aliquam neque,
-                          et. Consectetur pretium in volutpat, diam. Montes,
-                          magna cursus nulla feugiat dignissim id lobortis amet.
-                          Laoreet sem est phasellus eu proin massa, lectus. Diam
-                          rutrum posuere donec ultricies non morbi. Mi a platea
-                          auctor mi.
-                        </p>
-                        <p>
-                          Sagittis scelerisque nulla cursus in enim consectetur
-                          quam. Dictum urna sed consectetur neque tristique
-                          pellentesque. Blandit amet, sed aenean erat arcu
-                          morbi.
+                        <p className="pt-6">
+                          He also believes in working together with teams, working with %20 help and %80 student effort is mostly the best way to learning,
+                          however providing the good and correct direction, and showing the pragmatical path is essential to learning and improvement in coding journey.
+                          He created a Discord group where Programmers can interact with each other and help each other out. 
                         </p>
                       </div>
                     </div>
@@ -154,7 +111,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );

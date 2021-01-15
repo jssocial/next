@@ -3,10 +3,23 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 export default function Nav() {
+  const handleClick = () => {
+    document.querySelector('.menu-icon').classList.toggle('change');
+    const header = document.querySelector('.header-right');
+    const change = document.querySelector('.change');
+    const clearFix = document.querySelector('.clearfix');
+
+    if (change) {
+      header.style.display = 'inline-block';
+      header.style.fontSize = "10px";
+    } else {
+      header.style.display = 'none';
+    }
+  };
+
   return (
-    
     <div className="navbar">
-     <Head>
+      <Head>
         <meta charset="utf-8" />
         <meta
           name="viewport"
@@ -46,13 +59,13 @@ export default function Nav() {
                   </a>
                 </Link>
               </div>
-              <button type="button" className="menu-icon">
-                <span />
-                <span />
-                <span />
+              <button type="button" className="menu-icon" onClick={handleClick}>
+                <span className="line-1" />
+                <span className="line-2" />
+                <span className="line-3" />
               </button>
               <div className="header-right">
-                <nav>
+                <nav className="nav">
                   <ul className="clearfix">
                     <li>
                       <Link href="/about">
