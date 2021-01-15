@@ -59,8 +59,10 @@ export default function About() {
                       <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
                         <figure>
                           <div className="relative pb-7/12 lg:pb-0">
-                            <img src="https://i.ibb.co/vw3ZM9t/jae.jpg"
-                              className="rounded-lg shadow-lg object-cover object-center absolute inset-0 w-full h-full lg:static lg:h-auto" />
+                            <img
+                              src="https://i.ibb.co/vw3ZM9t/jae.jpg"
+                              className="rounded-lg shadow-lg object-cover object-center absolute inset-0 w-full h-full lg:static lg:h-auto"
+                            />
                           </div>
                           <figcaption className="flex mt-3 text-sm text-gray-500">
                             {/* Heroicon name: camera */}
@@ -83,24 +85,43 @@ export default function About() {
                     <div>
                       <div className="tracking-wider text-base max-w-prose mx-auto lg:max-w-none">
                         <p className="text-lg leading-7 text-gray-500 mb-5">
-                          Meet with our Mentor, Founder and CEO, Jae Lee. He offers consultations and best practices on the way to becoming a fully developed
-                          full stack developer. He gives the most practical ways to approach to the problems, and provides paths so a person be able to think themselves out of the problems.
+                          Meet with our Mentor, Founder and CEO, Jae Lee. He
+                          offers consultations and best practices on the way to
+                          becoming a fully developed full stack developer. He
+                          gives the most practical ways to approach to the
+                          problems, and provides paths so a person be able to
+                          think themselves out of the problems.
                         </p>
                       </div>
                       <div className="tracking-wider prose text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
                         <p className="pt-6">
-                          Compared to the other practices, the way Jae Lee goes with his teaching is that, he prompts the student to learn the material on his own,
-                          so he will get used to struggle, debugging, and finding his own way out of problems. This is the essential niche of being a programmer.
+                          Compared to the other practices, the way Jae Lee goes
+                          with his teaching is that, he prompts the student to
+                          learn the material on his own, so he will get used to
+                          struggle, debugging, and finding his own way out of
+                          problems. This is the essential niche of being a
+                          programmer.
                         </p>
                         <p className="pt-6">
-                          These days the React is on the rise and JavaScript is becoming more and more popular. While knowing that it isn't simply easy for a fresh beginner's to
-                          get a good grip on them easily, especially for people without a background in CS degree. It takes time to do things, and Jae Lee knows that, as himself being a Self-Taught dev who walked the walk, he
-                          is more mature with his advices and practices to the beginners and more down to earth.
+                          These days the React is on the rise and JavaScript is
+                          becoming more and more popular. While knowing that it
+                          isn't simply easy for a fresh beginner's to get a good
+                          grip on them easily, especially for people without a
+                          background in CS degree. It takes time to do things,
+                          and Jae Lee knows that, as himself being a Self-Taught
+                          dev who walked the walk, he is more mature with his
+                          advices and practices to the beginners and more down
+                          to earth.
                         </p>
                         <p className="pt-6">
-                          He also believes in working together with teams, working with %20 help and %80 student effort is mostly the best way to learning,
-                          however providing the good and correct direction, and showing the pragmatical path is essential to learning and improvement in coding journey.
-                          He created a Discord group where Programmers can interact with each other and help each other out. 
+                          He also believes in working together with teams,
+                          working with %20 help and %80 student effort is mostly
+                          the best way to learning, however providing the good
+                          and correct direction, and showing the pragmatical
+                          path is essential to learning and improvement in
+                          coding journey. He created a Discord group where
+                          Programmers can interact with each other and help each
+                          other out.
                         </p>
                       </div>
                     </div>

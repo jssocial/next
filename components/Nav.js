@@ -11,7 +11,6 @@ export default function Nav() {
 
     if (change) {
       header.style.display = 'inline-block';
-      header.style.fontSize = "10px";
     } else {
       header.style.display = 'none';
     }
