@@ -6,12 +6,283 @@ export default function Programs() {
   return (
     <div className="programs-div">
       <Nav />
+
+      <div className="relative py-16 bg-white overflow-hidden">
+        <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
+          <div
+            className="relative h-full text-lg max-w-prose mx-auto"
+            aria-hidden="true"
+          >
+            <svg
+              className="absolute top-12 left-full transform translate-x-32"
+              width="404"
+              height="384"
+              fill="none"
+              viewBox="0 0 404 384"
+            >
+              <defs>
+                <pattern
+                  id="74b3fd99-0a6f-4271-bef2-e80eeafdf357"
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    x="0"
+                    y="0"
+                    width="4"
+                    height="4"
+                    className="text-gray-200"
+                    fill="currentColor"
+                  />
+                </pattern>
+              </defs>
+              <rect
+                width="404"
+                height="384"
+                fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)"
+              />
+            </svg>
+            <svg
+              className="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32"
+              width="404"
+              height="384"
+              fill="none"
+              viewBox="0 0 404 384"
+            >
+              <defs>
+                <pattern
+                  id="f210dbf6-a58d-4871-961e-36d5016a0f49"
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    x="0"
+                    y="0"
+                    width="4"
+                    height="4"
+                    className="text-gray-200"
+                    fill="currentColor"
+                  />
+                </pattern>
+              </defs>
+              <rect
+                width="404"
+                height="384"
+                fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
+              />
+            </svg>
+            <svg
+              className="absolute bottom-12 left-full transform translate-x-32"
+              width="404"
+              height="384"
+              fill="none"
+              viewBox="0 0 404 384"
+            >
+              <defs>
+                <pattern
+                  id="d3eb07ae-5182-43e6-857d-35c643af9034"
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    x="0"
+                    y="0"
+                    width="4"
+                    height="4"
+                    className="text-gray-200"
+                    fill="currentColor"
+                  />
+                </pattern>
+              </defs>
+              <rect
+                width="404"
+                height="384"
+                fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div className="relative px-4 sm:px-6 lg:px-8">
+          <div className="text-lg max-w-prose mx-auto">
+            <h1>
+              <span className="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">
+                Introducing
+              </span>
+              <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                Full Stack Path Program in Detail
+              </span>
+            </h1>
+            <p className="mt-8 text-xl text-gray-500 leading-8">
+              The Schedule will be also be given at the below, now it is time to explain our project, our aim and what you can expect from us at below.
+            </p>
+          </div>
+          <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+            <p>
+              Our aim is to teach JavaScript both in Backend and Frontend make the Student become efficient as possible in little time as possible.
+              <strong>JavaScript</strong> is counted as one of the most <strong>Popular</strong> programming language nowadays.
+              With its Frameworks, when a person learns to use them efficiently, it will improve both his programming knowledge incredibly and his
+              career. Nowadays React (in the Front End) and Node.js (in the Back End) are wanted everywhere in the world, whether as a Remote job,
+              or not, there are hundreds of possibilities if you know what you're doing. And our aim here is to prepare to you to the level that 
+              you know what you're doing.
+            </p>
+            <ul>
+              <li>There will be a 5 month long Journey till you reach to the Full Stack level at least. With required time and practice then everything happens.</li>
+              <li>
+                You will be learning many frameworks of JavaScript and CSS. That means you have to prepare yourself and give yourself fully.
+              </li>
+              <li>Things will take time to learn, just dedicate yourself and follow the Path that is given you by your Mentor.</li>
+            </ul>
+            <p>
+              The Mentors will be assigned to you according to your needs and expertise and where you are in your Path. Those chosen mentors will give you a Path that you will be
+              following, what to learn next, what to practice next, how to use a Framework or Language, how to approach things, the mindset you have to follow,
+              basically all the things you need, they will explain and guide. But you will have to put the work. This is not a Magic course.
+            </p>
+            <h2>From beginner to expert in 5 months</h2>
+            <p>
+              Things will take time but if you dedicate yourself to this Course and to listen to the Mentors fully and practice what is being learned according to the instructions,
+              and finish the Final Project at the 5. Month, you will become a great Developer.
+            </p>
+            
+              <p>
+              <blockquote>No great thing is created suddenly, any more than a bunch of grapes or a fig. If you tell me that you desire a fig, I answer that there must be time. Let it first blossom, then bear fruit, then ripen.</blockquote> - Epictetus
+              </p>
+           
+            <p>
+              Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
+              enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
+              praesent donec est. Odio penatibus risus viverra tellus varius sit
+              neque erat velit.
+            </p>
+            <figure>
+              <img
+                className="w-full rounded-lg"
+                src="https://i.imgur.com/q3lgZYy.jpg"
+                alt=""
+                width="1310"
+                height="873"
+              />
+              <figcaption>
+                <p><i>Mentor Jae Lee in 1 on 1 Live Session.</i></p>
+              </figcaption>
+            </figure>
+            <h2>Everything you need to get up and running</h2>
+            <p>
+              Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>.
+              Amet, massa quam varius orci dapibus volutpat cras. In amet eu
+              ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut
+              viverra ridiculus non molestie. Gravida quis fringilla amet eget
+              dui tempor dignissim. Facilisis auctor venenatis varius nunc,
+              congue erat ac. Cras fermentum convallis quam.
+            </p>
+            <p>
+              Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
+              enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
+              praesent donec est. Odio penatibus risus viverra tellus varius sit
+              neque erat velit.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section className="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <svg
+            className="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2"
+            width="404"
+            height="404"
+            fill="none"
+            viewBox="0 0 404 404"
+            role="img"
+            aria-labelledby="svg-workcation"
+          >
+            <title id="svg-workcation">Workcation</title>
+            <defs>
+              <pattern
+                id="ad119f34-7694-4c31-947f-5c9d249b21f3"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  className="text-gray-200"
+                  fill="currentColor"
+                />
+              </pattern>
+            </defs>
+            <rect
+              width="404"
+              height="404"
+              fill="url(#ad119f34-7694-4c31-947f-5c9d249b21f3)"
+            />
+          </svg>
+
+          <div className="relative">
+            <blockquote className="mt-10">
+              <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
+                <p>
+                  &ldquo;When I came upon Mentor Jae Lee, I had no idea about
+                  Javascript, I only knew it by name. After spending 4-5 months
+                  with him. I was skilled in both Backend and Frontend, and I
+                  was already doing what a Fullstack dev was doing. I deployed
+                  many apps, created from scratch, joined and collaborated with
+                  the team. I've built a Portfolio and created Full Stack apps
+                  after the course.&rdquo;
+                </p>
+              </div>
+              <footer className="mt-8">
+                <div className="md:flex md:items-center md:justify-center">
+                  <div className="md:flex-shrink-0">
+                    <img
+                      className="mx-auto h-10 w-10 rounded-full"
+                      src="https://i.ibb.co/r6K8tCg/IMG-20200713-000528-884.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
+                    <div className="text-base font-medium text-gray-900">
+                      Mert Efe
+                    </div>
+
+                    <svg
+                      className="hidden md:block mx-1 h-5 w-5 text-indigo-600"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M11 0h3L9 20H6l5-20z" />
+                    </svg>
+
+                    <div className="text-base font-medium text-gray-500">
+                      JS.Social Graduate Full Stack Developer
+                    </div>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
       <div className="programs">
         <div className="bg-white">
           <div className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
             <div className="sm:flex sm:flex-col sm:align-center">
-              <h1 className="text-5xl font-extrabold text-gray-900 sm:text-center">
-                Full Stack Developer Path
+              <h1 className="text-4xl font-extrabold text-gray-900 sm:text-center">
+                Full Stack Developer Path Schedule
               </h1>
               <p className="mt-5 text-xl text-gray-500 sm:text-center pt-10">
                 We make from Zero to Hero Developers with each course.
@@ -367,7 +638,6 @@ export default function Programs() {
           </div>
         </div>
       </div>
-
       <Footer />
     </div>
   );

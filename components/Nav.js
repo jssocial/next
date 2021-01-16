@@ -86,6 +86,11 @@ export default function Nav() {
                         <a> Membership </a>
                       </Link>
                     </li>
+                    <li>
+                      <Link href="/contactus">
+                        <a> Contact Us </a>
+                      </Link>
+                    </li>
                   </ul>
                 </nav>
                 <div className="login">
