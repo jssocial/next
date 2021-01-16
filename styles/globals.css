@@ -915,10 +915,14 @@ footer {
   font-weight: bold;
 }
 
-.programs-div {
+.membership-div {
   font-family: "NeueHaasGroteskTextPro";
 }
 
-.program-upper {
+.membership-upper {
   font-family: "NeueHaasGroteskTextPro-Bold";
+}
+
+.programs-div {
+  font-family: "NeueHaasGroteskTextPro-Medium";
 }

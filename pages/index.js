@@ -323,42 +323,42 @@ export default function Home() {
                   <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
                     <img
                       className="max-h-12"
-                      src="https://tailwindui.com/img/logos/transistor-logo.svg"
+                      src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
                       alt="Workcation"
                     />
                   </div>
                   <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
                     <img
                       className="max-h-12"
-                      src="https://tailwindui.com/img/logos/mirage-logo.svg"
+                      src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
                       alt="Mirage"
                     />
                   </div>
                   <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
                     <img
                       className="max-h-12"
-                      src="https://tailwindui.com/img/logos/tuple-logo.svg"
+                      src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
                       alt="Tuple"
                     />
                   </div>
                   <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
                     <img
                       className="max-h-12"
-                      src="https://tailwindui.com/img/logos/laravel-logo.svg"
+                      src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg"
                       alt="Laravel"
                     />
                   </div>
                   <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
                     <img
                       className="max-h-12"
-                      src="https://tailwindui.com/img/logos/statickit-logo.svg"
+                      src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
                       alt="StaticKit"
                     />
                   </div>
                   <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
                     <img
                       className="max-h-12"
-                      src="https://tailwindui.com/img/logos/statamic-logo.svg"
+                      src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg"
                       alt="Statamic"
                     />
                   </div>
