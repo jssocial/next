@@ -15,14 +15,14 @@ export default function About() {
                 <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
                   <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
                   <div className="mx-auto text-base max-w-prose lg:max-w-none">
-                    <p className="text-lg leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+                    <p className="text-lg sitka leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
                       MEET WITH THE MENTOR
                     </p>
-                    <h1 className="tracking-normal mt-2 mb-8 text-4xl leading-8 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+                    <h1 className="sitka tracking-normal mt-2 mb-8 text-4xl leading-8 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
                       Jae Lee
                     </h1>
                   </div>
-                  <div className="lg:grid lg:grid-cols-2 lg:gap-8">
+                  <div className="lg:grid lg:grid-cols-2 lg:gap-8 neue">
                     <div className="relative mb-8 lg:mb-0 lg:row-start-1 lg:col-start-2">
                       <svg
                         className="hidden lg:block absolute top-0 right-0 -mt-20 -mr-20"

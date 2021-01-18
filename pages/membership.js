@@ -35,10 +35,10 @@ export default function Membership() {
                 </svg>
               </div>
             </div>
-            <h2 className="mt-6 text-3xl font-extrabold text-gray-900 sm:text-4xl">
+            <h2 className="sitka mt-6 text-3xl font-extrabold text-gray-900 sm:text-4xl">
               JS.Social Current Stats
             </h2>
-            <p className="mt-6 text-lg text-gray-500">
+            <p className="neue mt-6 text-lg text-gray-500">
               We've just started to out journey as a Community and Course.
               However even though we're at the beginning, we are proud of our
               students, mentors, and our stats!
@@ -46,26 +46,26 @@ export default function Membership() {
             <div className="mt-8 overflow-hidden">
               <dl className="-mx-8 -mt-8 flex flex-wrap">
                 <div className="flex flex-col px-8 pt-8">
-                  <dt className="order-2 text-lg font-medium text-gray-500">
+                  <dt className="neue order-2 text-lg font-medium text-gray-500">
                     3
                   </dt>
-                  <dd className="order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
+                  <dd className="sitka order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
                     Completed Projects with Groups
                   </dd>
                 </div>
                 <div className="flex flex-col px-8 pt-8">
-                  <dt className="order-2 text-lg font-medium text-gray-500">
+                  <dt className="neue order-2 text-lg font-medium text-gray-500">
                     1 (Jae Lee)
                   </dt>
-                  <dd className="order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
+                  <dd className="sitka order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
                     Mentor Count
                   </dd>
                 </div>
                 <div className="flex flex-col px-8 pt-8">
-                  <dt className="order-2 text-lg font-medium text-gray-500">
+                  <dt className="neue order-2 text-lg font-medium text-gray-500">
                     1 (Mert Efe)
                   </dt>
-                  <dd className="order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
+                  <dd className="sitka order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
                     Students
                   </dd>
                 </div>
@@ -78,13 +78,13 @@ export default function Membership() {
       <div className="bg-gray-600 mt-20">
         <div className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
           <div className="text-center">
-            <h2 className="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">
+            <h2 className="sitka text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">
               PRICEMENTS FOR
             </h2>
-            <p className="mt- text-3xl tracking-wide py-4 font-extrabold text-white sm:text-4xl lg:text-5xl">
+            <p className="sitka text-3xl tracking-wide py-4 font-extrabold text-white sm:text-4xl lg:text-5xl">
               JS.SOCIAL MEMBERSHIP PACKAGES
             </p>
-            <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
+            <p className="neue mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
               We've created 3 types of packages for all kinds of developers who
               has different needs and specific instructors, according to their
               level, expertise, and where they currently are in their journey.
@@ -103,7 +103,7 @@ export default function Membership() {
                       <div className="bg-white px-6 py-10">
                         <div>
                           <h3
-                            className="text-center text-2xl font-medium text-gray-900"
+                            className="sitka text-center text-2xl font-medium text-gray-900"
                             id="tier-hobby"
                           >
                             Regular Membership
@@ -115,14 +115,14 @@ export default function Membership() {
                               </span>
                               <span className="font-extrabold">30</span>
                             </span>
-                            <span className="text-xl font-medium text-gray-500">
+                            <span className="text-xl font-medium text-gray-500 neue">
                               /month
                             </span>
                           </div>
                         </div>
                       </div>
-                      <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
-                        <ul className="space-y-4">
+                      <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-400 p-6 bg-white sm:p-10 lg:p-6 xl:p-10">
+                        <ul className="space-y-4 neue">
                           <li className="flex items-start">
                             <div className="flex-shrink-0">
                               <svg
@@ -199,7 +199,7 @@ export default function Membership() {
                           <div className="rounded-lg shadow-md">
                             <a
                               href="#"
-                              className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-black hover:bg-gray-200"
+                              className="neue block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-black hover:bg-gray-200"
                               aria-describedby="tier-hobby"
                             >
                               Start your trial
@@ -218,7 +218,7 @@ export default function Membership() {
                     />
                     <div className="absolute inset-x-0 top-0 transform translate-y-px">
                       <div className="flex justify-center transform -translate-y-1/2">
-                        <span className="inline-flex rounded-full bg-black px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
+                        <span className="sitka inline-flex rounded-full bg-black px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
                           Most swift success ratio
                         </span>
                       </div>
@@ -226,7 +226,7 @@ export default function Membership() {
                     <div className="bg-white rounded-t-lg px-6 pt-12 pb-10">
                       <div>
                         <h3
-                          className="text-center text-3xl font-semibold text-gray-900 sm:-mx-6"
+                          className="sitka text-center text-3xl font-semibold text-gray-900 sm:-mx-6"
                           id="tier-growth"
                         >
                           Premium Membership
@@ -238,14 +238,14 @@ export default function Membership() {
                             </span>
                             <span className="font-extrabold">149</span>
                           </span>
-                          <span className="text-2xl font-medium text-gray-500">
+                          <span className="neue text-2xl font-medium text-gray-500">
                             /month
                           </span>
                         </div>
                       </div>
                     </div>
-                    <div className="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
-                      <ul className="space-y-4">
+                    <div className="border-t-2 border-gray-400 bg-white rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
+                      <ul className="space-y-4 neue">
                         <li className="flex items-start">
                           <div className="flex-shrink-0">
                             <svg
@@ -399,7 +399,7 @@ export default function Membership() {
                       <div className="bg-white px-6 py-10">
                         <div>
                           <h3
-                            className="text-center text-2xl font-medium text-gray-900"
+                            className="sitka text-center text-2xl font-medium text-gray-900"
                             id="tier-scale"
                           >
                             Advanced Membership
@@ -411,14 +411,14 @@ export default function Membership() {
                               </span>
                               <span className="font-extrabold">50</span>
                             </span>
-                            <span className="text-xl font-medium text-gray-500">
+                            <span className="neue text-xl font-medium text-gray-500">
                               /month
                             </span>
                           </div>
                         </div>
                       </div>
-                      <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
-                        <ul className="space-y-4">
+                      <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-400 p-6 bg-white sm:p-10 lg:p-6 xl:p-10">
+                        <ul className="space-y-4 neue ">
                           <li className="flex items-start">
                             <div className="flex-shrink-0">
                               <svg
@@ -499,7 +499,7 @@ export default function Membership() {
                           <div className="rounded-lg shadow-md">
                             <a
                               href="#"
-                              className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-black hover:bg-gray-200"
+                              className="neue block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-black hover:bg-gray-200"
                               aria-describedby="tier-scale"
                             >
                               Start your trial
@@ -516,18 +516,18 @@ export default function Membership() {
         </div>
       </div>
 
-      <div className="bg-gray-400">
+      <div className="bg-gray-600">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-black">
+          <h2 className="text-3xl font-extrabold text-black sitka">
             Frequently asked questions
           </h2>
           <div className="mt-6 border-t border-indigo-300 border-opacity-25 pt-10">
             <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
               <div>
-                <dt className="text-lg leading-6 text-white pb-4 font-bold">
+                <dt className="sitka text-xl underline leading-6 text-black pb-4 font-bold">
                   Why should we pick JS.Social over other courses?
                 </dt>
-                <dd className="mt-2 text-base text-white font-normal tracking-wide">
+                <dd className="neue mt-2 text-base text-white font-normal tracking-wide">
                   <span>&#8220;</span>JS.Social is different inherently by the
                   way it approaches learning & teaching. The idea here is that
                   the student learns by itself. However as it is more important
@@ -540,10 +540,10 @@ export default function Membership() {
               </div>
 
               <div>
-                <dt className="text-lg leading-6 font-bold text-white pb-4">
+                <dt className="sitka text-xl underline  leading-6 font-bold text-black pb-4">
                   What you do when there's no Mentor active on Discord?
                 </dt>
-                <dd className="mt-2 text-base  text-white font-normal tracking-wide">
+                <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
                   <span>&#8220;</span>You follow the instructions laid by your
                   main mentor at the start of your membership. As a general
                   start point, the Mentor according to your Membership Package
@@ -556,10 +556,10 @@ export default function Membership() {
               </div>
 
               <div>
-                <dt className="text-lg leading-6 font-bold text-white pb-4">
+                <dt className="sitka text-xl underline leading-6 font-bold text-black pb-4">
                   How fast can I learn ?
                 </dt>
-                <dd className="mt-2 text-base text-white font-normal tracking-wide">
+                <dd className="neue mt-2 text-base text-white font-normal tracking-wide">
                   <span>&#8220;</span>Swiftness varies person to person however,
                   we want you to aim to the highest and not satisfied with just
                   basic bare entry levels. That is why we created Premium
@@ -575,10 +575,10 @@ export default function Membership() {
               </div>
 
               <div>
-                <dt className="text-lg leading-6 font-bold text-white pb-4">
+                <dt className="sitka text-xl underline leading-6 font-bold text-black pb-4">
                   How can I approach this course so I can get the most benefit?
                 </dt>
-                <dd className="mt-2 text-base  text-white font-normal tracking-wide">
+                <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
                   <span>&#8220;</span>In a mindset of explorer, persistent,
                   stubborn mindset is what you need. The road may get rough,
                   bumpy at times, but if you persist through that hardness you
@@ -593,10 +593,10 @@ export default function Membership() {
               </div>
 
               <div>
-                <dt className="text-lg leading-6 font-bold text-white pb-4">
+                <dt className="sitka text-xl underline leading-6 font-bold text-black pb-4">
                   What happens after I finish this course?
                 </dt>
-                <dd className="mt-2 text-base  text-white font-normal tracking-wide">
+                <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
                   <span>&#8220;</span>There's no end time for the course you can
                   expand your Membership whenever it ends, or upgrade it to a
                   more advanced one. However even if you finish our smallest
@@ -610,10 +610,10 @@ export default function Membership() {
               </div>
 
               <div>
-                <dt className="text-lg leading-6 font-bold text-white pb-4">
+                <dt className="sitka text-xl underline  leading-6 font-bold text-black pb-4">
                   Will Mentors help me with my Portfolio ?
                 </dt>
-                <dd className="mt-2 text-base  text-white font-normal tracking-wide">
+                <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
                   <span>&#8220;</span>You will be able to put the Group Projects
                   to your portfolio if you've taken the Premium Membership, and
                   that will make you standout at high level ! Other than that

@@ -11,10 +11,10 @@ export default function Mentors() {
         <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+              <h2 className="sitka text-3xl font-extrabold tracking-tight sm:text-4xl">
                 Our Team
               </h2>
-              <p className="text-xl text-gray-500">
+              <p className="neue text-xl text-gray-500">
                 We are honored and proud to be representing to you our highly
                 skilled, patient and student-friendly Mentor Team.
               </p>
@@ -33,12 +33,12 @@ export default function Mentors() {
 
                   <div className="space-y-2">
                     <div className="text-lg leading-6 font-medium space-y-1">
-                      <h3 className="font-bold">Jae Lee</h3>
-                      <h5 className="text-black">@jaequery</h5>
-                      <p className="text-indigo-600">
+                      <h3 className="font-bold sitka">Jae Lee</h3>
+                      <h5 className="text-black sitka">@jaequery</h5>
+                      <p className="text-indigo-600 neue">
                         Founder & Full-stack Developer & Head Mentor
                       </p>
-                      <p className="text-indigo-600">
+                      <p className="text-indigo-600 neue">
                         <strong>Proficient In:</strong>{' '}
                         <q>Node.js, Nest.js, Vue.js, React, Ruby</q>
                       </p>
@@ -97,12 +97,12 @@ export default function Mentors() {
 
                   <div className="space-y-2">
                     <div className="text-lg leading-6 font-medium space-y-1">
-                      <h3 className="font-bold">James</h3>
-                      <h5 className="text-black">@uptownhr</h5>
-                      <p className="text-indigo-600">
+                      <h3 className="font-bold sitka">James</h3>
+                      <h5 className="text-black sitka">@uptownhr</h5>
+                      <p className="text-indigo-600 neue">
                         Full-stack Developer & Mentor
                       </p>
-                      <p className="text-indigo-600">
+                      <p className="text-indigo-600 neue">
                         <strong>Proficient In:</strong>{' '}
                         <q>Node.js, Express.js, Vue.js, MongoDB</q>
                       </p>
@@ -161,12 +161,12 @@ export default function Mentors() {
 
                   <div className="space-y-2">
                     <div className="text-lg leading-6 font-medium space-y-1">
-                      <h3 className="font-bold">Joe</h3>
-                      <h5 className="text-black">@ibanzajoe</h5>
-                      <p className="text-indigo-600">
+                      <h3 className="font-bold sitka">Joe</h3>
+                      <h5 className="text-black sitka">@ibanzajoe</h5>
+                      <p className="text-indigo-600 neue">
                         Front-End Developer & Mentor
                       </p>
-                      <p className="text-indigo-600">
+                      <p className="text-indigo-600 neue">
                         <strong>Proficient In:</strong> <q>HTML, CSS, Vue.js</q>
                       </p>
                     </div>

@@ -10,34 +10,34 @@ export default function Footer() {
             <div className="grid grid-cols-2 gap-8 xl:col-span-2">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h4 className="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+                  <h4 className="sitka text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
                     Solutions
                   </h4>
                   <ul className="mt-4">
                     <li>
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="text-base neue leading-6 text-gray-500 hover:text-gray-900">
                           Marketing
                         </a>
                       </Link>
                     </li>
                     <li className="mt-4">
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="text-base neue leading-6 text-gray-500 hover:text-gray-900">
                           Analytics
                         </a>
                       </Link>
                     </li>
                     <li className="mt-4">
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="text-base neue leading-6 text-gray-500 hover:text-gray-900">
                           Commerce
                         </a>
                       </Link>
                     </li>
                     <li className="mt-4">
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="text-base neue leading-6 text-gray-500 hover:text-gray-900">
                           Insights
                         </a>
                       </Link>
@@ -45,34 +45,34 @@ export default function Footer() {
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h4 className="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+                  <h4 className="sitka text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
                     Support
                   </h4>
                   <ul className="mt-4">
                     <li>
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="neue text-base leading-6 text-gray-500 hover:text-gray-900">
                           Pricing
                         </a>
                       </Link>
                     </li>
                     <li className="mt-4">
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="neue text-base neue leading-6 text-gray-500 hover:text-gray-900">
                           Documentation
                         </a>
                       </Link>
                     </li>
                     <li className="mt-4">
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="text-base neue leading-6 text-gray-500 hover:text-gray-900">
                           Guides
                         </a>
                       </Link>
                     </li>
                     <li className="mt-4">
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="text-base neue leading-6 text-gray-500 hover:text-gray-900">
                           API Status
                         </a>
                       </Link>
@@ -82,41 +82,41 @@ export default function Footer() {
               </div>
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h4 className="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+                  <h4 className="sitka text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
                     Company
                   </h4>
                   <ul className="mt-4">
                     <li>
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="neue text-base leading-6 text-gray-500 hover:text-gray-900">
                           About
                         </a>
                       </Link>
                     </li>
                     <li className="mt-4">
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="neue text-base leading-6 text-gray-500 hover:text-gray-900">
                           Blog
                         </a>
                       </Link>
                     </li>
                     <li className="mt-4">
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="neue text-base leading-6 text-gray-500 hover:text-gray-900">
                           Jobs
                         </a>
                       </Link>
                     </li>
                     <li className="mt-4">
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="neue text-base leading-6 text-gray-500 hover:text-gray-900">
                           Press
                         </a>
                       </Link>
                     </li>
                     <li className="mt-4">
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="neue text-base leading-6 text-gray-500 hover:text-gray-900">
                           Partners
                         </a>
                       </Link>
@@ -124,27 +124,27 @@ export default function Footer() {
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h4 className="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+                  <h4 className="sitka text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
                     Legal
                   </h4>
                   <ul className="mt-4">
                     <li>
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="neue text-base leading-6 text-gray-500 hover:text-gray-900">
                           Claim
                         </a>
                       </Link>
                     </li>
                     <li className="mt-4">
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="neue text-base leading-6 text-gray-500 hover:text-gray-900">
                           Privacy
                         </a>
                       </Link>
                     </li>
                     <li className="mt-4">
                       <Link href="#">
-                        <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <a className="neue text-base leading-6 text-gray-500 hover:text-gray-900">
                           Terms
                         </a>
                       </Link>
@@ -154,10 +154,10 @@ export default function Footer() {
               </div>
             </div>
             <div className="mt-8 xl:mt-0">
-              <h4 className="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+              <h4 className="sitka text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
                 Subscribe to our newsletter
               </h4>
-              <p className="mt-4 text-gray-500 text-base leading-6">
+              <p className="neue mt-4 text-gray-500 text-base leading-6">
                 The latest news, articles, and resources, sent to your inbox
                 weekly.
               </p>
@@ -166,13 +166,13 @@ export default function Footer() {
                   aria-label="Email address"
                   type="email"
                   required
-                  className="appearance-none w-full px-5 py-3 border border-gray-300 text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:border-blue-300 focus:shadow-outline transition duration-150 ease-in-out"
+                  className="neue appearance-none w-full px-5 py-3 border border-gray-300 text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:border-blue-300 focus:shadow-outline transition duration-150 ease-in-out"
                   placeholder="Enter your email"
                 />
                 <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
                   <button
                     type="submit"
-                    className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-black hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                    className="neue w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-black hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                   >
                     Subscribe
                   </button>
@@ -259,7 +259,7 @@ export default function Footer() {
                 </a>
               </Link>
             </div>
-            <p className="mt-8 text-base leading-6 text-gray-400 md:mt-0 md:order-1">
+            <p className="neue mt-8 text-base leading-6 text-gray-400 md:mt-0 md:order-1">
               &copy; 2020 Workflow, Inc. All rights reserved.
             </p>
           </div>

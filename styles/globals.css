@@ -347,7 +347,6 @@ nav ul li a {
   padding: 40px 0 0 0;
 }
 .coading-right p {
-  font-family: "NeueHaasGroteskTextPro-Medium";
   font-size: 25px;
   color: #0b0b0b;
   font-weight: normal;
@@ -356,7 +355,6 @@ nav ul li a {
   padding: 0 0 10px 12px;
 }
 .coading-right h1 {
-  font-family: "SitkaSmall-Bold";
   font-size: 75px;
   color: #0b0b0b;
   font-weight: normal;
@@ -406,7 +404,6 @@ nav ul li a {
 }
 
 .help-sec > p {
-  font-family: "NeueHaasGroteskTextPro-Medium";
   font-size: 20px;
   color: #e7a366;
   font-weight: normal;
@@ -416,7 +413,6 @@ nav ul li a {
   padding: 0 0 26px 0;
 }
 .help-sec h2 {
-  font-family: "SitkaSmall-Bold";
   font-size: 55px;
   color: #0b0b0b;
   font-weight: normal;
@@ -456,7 +452,6 @@ nav ul li a {
   display: inline-block;
 }
 .help-in p span {
-  font-family: "NeueHaasGroteskTextPro-Bold";
   font-size: 20px;
   color: #000000;
   font-weight: normal;
@@ -466,7 +461,6 @@ nav ul li a {
   padding: 14px 0 13px 0;
 }
 .help-in p {
-  font-family: "NeueHaasGroteskTextPro";
   font-size: 16px;
   color: #000000;
   font-weight: normal;
@@ -925,4 +919,12 @@ footer {
 
 .programs-div {
   font-family: "NeueHaasGroteskTextPro-Medium";
+}
+
+.sitka {
+  font-family: "SitkaSmall-Bold" !important;
+}
+
+.neue {
+  font-family: "NeueHaasGroteskTextPro-Medium" !important;
 }

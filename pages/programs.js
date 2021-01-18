@@ -114,19 +114,19 @@ export default function Programs() {
         <div className="relative px-4 sm:px-6 lg:px-8">
           <div className="text-lg max-w-prose mx-auto">
             <h1>
-              <span className="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">
+              <span className="sitka block text-x1 text-center text-indigo-600 font-semibold tracking-wide uppercase">
                 Introducing
               </span>
-              <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              <span className="sitka mt-2 py-6 block text-5xl text-center leading-8 font-extrabold tracking-tight text-gray-900 lg:4x1">
                 Full Stack Path Program in Detail
               </span>
             </h1>
-            <p className="mt-8 text-xl text-gray-500 leading-8">
+            <p className="neue mt-8 text-xl text-gray-500 leading-8">
               The Schedule will be also be given at the below, now it is time to explain our project, our aim and what you can expect from us at below.
             </p>
           </div>
-          <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-            <p>
+          <div className="mt-6 neue prose prose-indigo prose-lg text-gray-500 mx-auto">
+            <p className="neue">
               Our aim is to teach JavaScript both in Backend and Frontend make the Student become efficient as possible in little time as possible.
               <strong>JavaScript</strong> is counted as one of the most <strong>Popular</strong> programming language nowadays.
               With its Frameworks, when a person learns to use them efficiently, it will improve both his programming knowledge incredibly and his
@@ -134,7 +134,7 @@ export default function Programs() {
               or not, there are hundreds of possibilities if you know what you're doing. And our aim here is to prepare to you to the level that 
               you know what you're doing.
             </p>
-            <ul>
+            <ul className="neue">
               <li>There will be a 5 month long Journey till you reach to the Full Stack level at least. With required time and practice then everything happens.</li>
               <li>
                 You will be learning many frameworks of JavaScript and CSS. That means you have to prepare yourself and give yourself fully.
@@ -146,17 +146,17 @@ export default function Programs() {
               following, what to learn next, what to practice next, how to use a Framework or Language, how to approach things, the mindset you have to follow,
               basically all the things you need, they will explain and guide. But you will have to put the work. This is not a Magic course.
             </p>
-            <h2>From beginner to expert in 5 months</h2>
-            <p>
+            <h2 className="sitka">From beginner to expert in 5 months</h2>
+            <p className="neue">
               Things will take time but if you dedicate yourself to this Course and to listen to the Mentors fully and practice what is being learned according to the instructions,
               and finish the Final Project at the 5. Month, you will become a great Developer.
             </p>
             
               <p>
-              <blockquote>No great thing is created suddenly, any more than a bunch of grapes or a fig. If you tell me that you desire a fig, I answer that there must be time. Let it first blossom, then bear fruit, then ripen.</blockquote> - Epictetus
+              <blockquote className="neue">No great thing is created suddenly, any more than a bunch of grapes or a fig. If you tell me that you desire a fig, I answer that there must be time. Let it first blossom, then bear fruit, then ripen.</blockquote> - Epictetus
               </p>
            
-            <p>
+            <p className="neue">
               Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
               enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
               praesent donec est. Odio penatibus risus viverra tellus varius sit
@@ -171,11 +171,11 @@ export default function Programs() {
                 height="873"
               />
               <figcaption>
-                <p><i>Mentor Jae Lee in 1 on 1 Live Session.</i></p>
+                <p className="neue"><i>Mentor Jae Lee in 1 on 1 Live Session.</i></p>
               </figcaption>
             </figure>
-            <h2>Everything you need to get up and running</h2>
-            <p>
+            <h2 className="sitka">Everything you need to get up and running</h2>
+            <p className="neue"> 
               Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>.
               Amet, massa quam varius orci dapibus volutpat cras. In amet eu
               ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut
@@ -183,7 +183,7 @@ export default function Programs() {
               dui tempor dignissim. Facilisis auctor venenatis varius nunc,
               congue erat ac. Cras fermentum convallis quam.
             </p>
-            <p>
+            <p className="neue">
               Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
               enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
               praesent donec est. Odio penatibus risus viverra tellus varius sit
@@ -281,10 +281,10 @@ export default function Programs() {
         <div className="bg-white">
           <div className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
             <div className="sm:flex sm:flex-col sm:align-center">
-              <h1 className="text-4xl font-extrabold text-gray-900 sm:text-center">
+              <h1 className="sitka text-5xl font-extrabold text-gray-900 sm:text-center">
                 Full Stack Developer Path Schedule
               </h1>
-              <p className="mt-5 text-xl text-gray-500 sm:text-center pt-10">
+              <p className="neue mt-5 text-xl text-gray-500 sm:text-center pt-10">
                 We make from Zero to Hero Developers with each course.
                 <br /> Join us on this journey, and earn your place amongst the
                 developer community.
@@ -294,32 +294,32 @@ export default function Programs() {
             <div className="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4">
               <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
                 <div className="p-6">
-                  <h2 className="text-lg leading-6 font-medium text-gray-900">
+                  <h2 className="sitka text-3xl leading-6 font-bold text-gray-900">
                     1. Month
                   </h2>
-                  <p className="mt-4 text-sm text-gray-500">
+                  <p className="sitka mt-4 text-xl text-gray-500">
                     Entrance into the Web Development
                   </p>
-                  <p className="mt-12">
-                    <span className="text-2xl font-extrabold text-gray-900">
+                  <p className="mt-8">
+                    <span className="sitka text-2xl font-extrabold text-gray-900">
                       Basics
                     </span>
                     <br />
-                    <span className="text-base font-medium text-gray-500">
+                    <span className="neue text-base font-medium text-gray-500">
                       (HTML, CSS, GIT)
                     </span>
                   </p>
                   <Link href="/membership">
-                    <a className="mt-8 block tracking-widest w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">
+                    <a className="neue mt-8 block tracking-widest w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">
                       Start the Journey!
                     </a>
                   </Link>
                 </div>
                 <div className="pt-6 pb-8 px-6">
-                  <h3 className="text-xs  font-black tracking-wider text-gray-900 tracking-wide uppercase">
+                  <h3 className="sitka text-md font-black tracking-wider text-gray-900 tracking-wide uppercase">
                     What's included
                   </h3>
-                  <ul className="mt-6 space-y-4">
+                  <ul className="mt-6 space-y-4 neue">
                     <li className="flex space-x-3">
                       <svg
                         className="flex-shrink-0 h-5 w-5 text-green-500"
@@ -334,7 +334,7 @@ export default function Programs() {
                           clipRule="evenodd"
                         />
                       </svg>
-                      <span className="text-sm text-gray-500">
+                      <span className="neue text-sm text-gray-500">
                         Diving into the HTML & CSS and creating your first web
                         design-page.
                       </span>
@@ -354,7 +354,7 @@ export default function Programs() {
                           clipRule="evenodd"
                         />
                       </svg>
-                      <span className="text-sm text-gray-500">
+                      <span className="neue text-sm text-gray-500">
                         Learning Git commands and learning to push your code
                         into a repo first time.
                       </span>
@@ -365,29 +365,29 @@ export default function Programs() {
 
               <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
                 <div className="p-6">
-                  <h2 className="text-lg leading-6 font-medium text-gray-900">
+                  <h2 className="sitka text-3xl leading-6 font-bold text-gray-900">
                     2. Month
                   </h2>
-                  <p className="mt-4 text-sm text-gray-500">
+                  <p className="sitka mt-4 text-xl  text-gray-500">
                     Moving into the uncharted territories
                   </p>
                   <p className="mt-6">
-                    <span className="text-2xl font-extrabold text-gray-900">
+                    <span className="sitka text-2xl font-extrabold text-gray-900">
                       Front End
                     </span>
                     <br />
-                    <span className="text-base font-medium text-gray-500">
+                    <span className="neue text-base font-medium text-gray-500">
                       ( React, Next.js, Tailwind, Material UI )
                     </span>
                   </p>
                   <Link href="/membership">
-                    <a className="mt-8 block tracking-widest w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">
+                    <a className="neue mt-8 block tracking-widest w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">
                       Start the Journey!
                     </a>
                   </Link>
                 </div>
                 <div className="pt-6 pb-8 px-6">
-                  <h3 className="text-xs  font-black tracking-wider text-gray-900 tracking-wide uppercase">
+                  <h3 className="sitka text-md font-black tracking-wider text-gray-900 tracking-wide uppercase">
                     What's included
                   </h3>
                   <ul className="mt-6 space-y-4">
@@ -405,7 +405,7 @@ export default function Programs() {
                           clipRule="evenodd"
                         />
                       </svg>
-                      <span className="text-sm text-gray-500">
+                      <span className="neue text-sm text-gray-500">
                         Learning React Framework as the biggest step of your
                         career we don't put our foot into the brakes but as the
                         opposite, we push harder into the territory. We learn
@@ -429,7 +429,7 @@ export default function Programs() {
                           clipRule="evenodd"
                         />
                       </svg>
-                      <span className="text-sm text-gray-500">
+                      <span className="neue text-sm text-gray-500">
                         This is the real breakthrough into the more rich web
                         development. A real step into becoming a real Dev.
                       </span>
@@ -440,12 +440,12 @@ export default function Programs() {
 
               <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
                 <div className="p-6">
-                  <h2 className="text-lg leading-6 font-medium text-gray-900">
+                  <h2 className="sitka text-3xl leading-6 font-bold text-gray-900">
                     3. Month
                   </h2>
-                  <p className="mt-4 text-sm text-gray-500">Becoming the Dev</p>
-                  <p className="mt-10">
-                    <span className="text-2xl font-extrabold text-gray-900">
+                  <p className="mt-4 text-xl text-gray-500 sitka">Becoming the Dev</p>
+                  <p className="mt-12">
+                    <span className="sitka text-2xl font-extrabold text-gray-900">
                       Backend
                     </span>{' '}
                     <br />
@@ -460,7 +460,7 @@ export default function Programs() {
                   </Link>
                 </div>
                 <div className="pt-6 pb-8 px-6">
-                  <h3 className="text-xs font-black tracking-wider text-gray-900 tracking-wide uppercase">
+                  <h3 className="sitka text-md font-black tracking-wider text-gray-900 tracking-wide uppercase">
                     What's included
                   </h3>
                   <ul className="mt-6 space-y-4">
@@ -478,7 +478,7 @@ export default function Programs() {
                           clipRule="evenodd"
                         />
                       </svg>
-                      <span className="text-sm text-gray-500">
+                      <span className="neue text-sm text-gray-500">
                         In this month we delve right in into the last piece of
                         the Full Stack Web Development and learn to generate a
                         Full Stack Application with completing the Backend
@@ -500,7 +500,7 @@ export default function Programs() {
                           clipRule="evenodd"
                         />
                       </svg>
-                      <span className="text-sm text-gray-500">
+                      <span className="neue text-sm text-gray-500">
                         By learning these technologies, now we are able to
                         create a Database, create a Server in Backend, learn how
                         to write appropiate code to give API to Frontend, and
@@ -522,7 +522,7 @@ export default function Programs() {
                           clipRule="evenodd"
                         />
                       </svg>
-                      <span className="text-sm text-gray-500">
+                      <span className="neue text-sm text-gray-500">
                         As the one of the most useful steps of Web Development,
                         the Backend completes the circle, and within that
                         completion usually Students have a revelation which is
@@ -539,15 +539,15 @@ export default function Programs() {
 
               <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
                 <div className="p-6">
-                  <h2 className="text-lg leading-6 font-medium text-gray-900">
-                    4. Month & 5. Month
+                  <h2 className="sitka text-3xl leading-7 font-bold text-gray-900">
+                    4. & 5. Months
                   </h2>
-                  <p className="mt-4 text-sm text-gray-500">
+                  <p className="mt-4 text-xl sitka text-gray-500">
                     Going that extra mile into the finish line...
                   </p>
 
-                  <p className="mt-5">
-                    <span className="text-2xl font-extrabold text-gray-900">
+                  <p className="mt-4">
+                    <span className="sitka text-2xl font-extrabold text-gray-900">
                       Extra + Projects
                       <br />
                     </span>
@@ -562,7 +562,7 @@ export default function Programs() {
                   </Link>
                 </div>
                 <div className="pt-6 pb-8 px-6">
-                  <h3 className="text-xs font-black tracking-wider text-gray-900 tracking-wide uppercase">
+                  <h3 className="text-md sitka font-black tracking-wider text-gray-900 tracking-wide uppercase">
                     What's included
                   </h3>
                   <ul className="mt-6 space-y-4">
