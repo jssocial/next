@@ -21,7 +21,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="coading-right">
-                <p className="sitka">A membership-based</p>
+                <p className="">A membership-based</p>
                 <h1>
                   Javascript <br /> Community
                 </h1>
@@ -43,7 +43,7 @@ export default function Home() {
         <div className="help">
           <div className="container">
             <div className="help-sec">
-              <p className="sitka">What do you get</p>
+              <p className="neue">What do you get</p>
               <h2>Membership Benefits</h2>
               <ul className="clearfix">
                 <li className="active">
@@ -57,14 +57,14 @@ export default function Home() {
                           height="109"
                         />
                       </figure>
-                      <p className="sitka">
-                        <span>
+                      <p className="neue-bold private">
+                        <span className="private">
                           Private
                           <br />
                           Discord Chat
                         </span>
                       </p>
-                      <p className="neue"> 
+                      <p className="neue body-text-color">
                         Access to our private Discord chat where you can ask and
                         receive Javascript help
                       </p>
@@ -83,14 +83,14 @@ export default function Home() {
                           height="109"
                         />
                       </figure>
-                      <p className="sitka">
+                      <p className="neue-bold">
                         <span>
                           Experienced
                           <br />
                           Developers
                         </span>
                       </p>
-                      <p className="neue">
+                      <p className="neue body-text-color">
                         We have developers with over 100+ years of combined
                         experience
                       </p>
@@ -109,10 +109,10 @@ export default function Home() {
                           height="109"
                         />
                       </figure>
-                      <p className="sitka">
+                      <p className="neue-bold">
                         <span className="teach">100% Real Projects</span>
                       </p>
-                      <p className="neue">
+                      <p className="neue body-text-color">
                         We help you learn with real-world projects that provides
                         you with critical experience
                       </p>
@@ -131,13 +131,13 @@ export default function Home() {
                           height="109"
                         />
                       </figure>
-                      <p className="sitka">
+                      <p className="neue-bold">
                         <span>
                           Speed-up <br />
                           Learning
                         </span>
                       </p>
-                      <p className="neue">
+                      <p className="neue body-text-color">
                         With our help, you can increase your learning speed by
                         up to 200%
                       </p>
@@ -151,13 +151,13 @@ export default function Home() {
         <div className="social">
           <div className="container">
             <div className="social-sec">
-              <p className="sitka">What is JS.social</p>
-              <h2 className="sitka">A network of mentors and students</h2>
+              <p className="">What is JS.social</p>
+              <h2 className="">A network of mentors and students</h2>
               <div className="social-in">
                 <div className="social-in-left">
                   <ul className="clearfix">
                     <li>
-                      <h3 className="sitka">Code with world-class developers</h3>
+                      <h3 className="">Code with world-class developers</h3>
                       <p className="neue">
                         We are a network of Javascript developers who have real
                         jobs and possess decades of real-life experience who
@@ -168,7 +168,7 @@ export default function Home() {
                       </p>
                     </li>
                     <li style={{ marginTop: '60px' }}>
-                      <h3 className="sitka">We make learning a life-style</h3>
+                      <h3 className="">We make learning a life-style</h3>
                       <p className="neue">
                         We provide a private Discord room where we either
                         provide support, mentor, and guide our members to
@@ -301,10 +301,10 @@ export default function Home() {
             <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
               <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
                 <div>
-                  <h2 className="sitka text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+                  <h2 className="neue-bold text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
                     We help you land jobs through our extensive network
                   </h2>
-                  <p className="mt-3 max-w-3xl text-lg leading-7 text-gray-500 neue">
+                  <p className="mt-3 max-w-3xl text-lg leading-7  neue body-text-color">
                     We have helped members land their dream jobs in some of the
                     most respected companies
                   </p>
@@ -385,7 +385,7 @@ export default function Home() {
                   </Link>
                 </div>
                 <div className="invest-sec-right">
-                  <h2 className="sitka">
+                  <h2 className="">
                     It's time to start investing <br />
                     in your future.
                   </h2>

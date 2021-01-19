@@ -42,8 +42,8 @@ export default function Nav() {
       </Head>
 
       <div className="side-bar" />
-      <header className="sitka">
-        <div className="header-sec sitka">
+      <header>
+        <div className="header-sec">
           <div className="container">
             <div className="header-sec-in">
               <div className="logo">

@@ -18,7 +18,7 @@ export default function About() {
                     <p className="text-lg sitka leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
                       MEET WITH THE MENTOR
                     </p>
-                    <h1 className="sitka tracking-normal mt-2 mb-8 text-4xl leading-8 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+                    <h1 className="neue-bold tracking-normal mt-2 mb-8 text-4xl leading-8 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
                       Jae Lee
                     </h1>
                   </div>
@@ -84,9 +84,9 @@ export default function About() {
                       </div>
                     </div>
                     <div>
-                      <div className="tracking-wider text-base max-w-prose mx-auto lg:max-w-none">
-                        <p className="text-lg leading-7 text-gray-500 mb-5">
-                          Meet with our Mentor, Founder and CEO, Jae Lee. He
+                      <div className="max-w-prose mx-auto lg:max-w-none">
+                        <p className="mb-5 body-text-color">
+                          Meet with our Mentor, Founder and CEO, <strong>Jae Lee.</strong> He
                           offers consultations and best practices on the way to
                           becoming a fully developed full stack developer. He
                           gives the most practical ways to approach to the
@@ -94,8 +94,8 @@ export default function About() {
                           think themselves out of the problems.
                         </p>
                       </div>
-                      <div className="tracking-wider prose text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-                        <p className="pt-6">
+                      <div className="prose body-text-color mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+                        <p className="pt-6 body-text-color">
                           Compared to the other practices, the way Jae Lee goes
                           with his teaching is that, he prompts the student to
                           learn the material on his own, so he will get used to
@@ -103,7 +103,7 @@ export default function About() {
                           problems. This is the essential niche of being a
                           programmer.
                         </p>
-                        <p className="pt-6">
+                        <p className="pt-6 body-text-color">
                           These days the React is on the rise and JavaScript is
                           becoming more and more popular. While knowing that it
                           isn't simply easy for a fresh beginner's to get a good
@@ -114,7 +114,7 @@ export default function About() {
                           advices and practices to the beginners and more down
                           to earth.
                         </p>
-                        <p className="pt-6">
+                        <p className="pt-6 body-text-color">
                           He also believes in working together with teams,
                           working with %20 help and %80 student effort is mostly
                           the best way to learning, however providing the good

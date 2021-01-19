@@ -347,6 +347,7 @@ nav ul li a {
   padding: 40px 0 0 0;
 }
 .coading-right p {
+  font-family: "NeueHaasGroteskTextPro-Medium";
   font-size: 25px;
   color: #0b0b0b;
   font-weight: normal;
@@ -355,6 +356,7 @@ nav ul li a {
   padding: 0 0 10px 12px;
 }
 .coading-right h1 {
+  font-family: "SitkaSmall-Bold";
   font-size: 75px;
   color: #0b0b0b;
   font-weight: normal;
@@ -413,6 +415,7 @@ nav ul li a {
   padding: 0 0 26px 0;
 }
 .help-sec h2 {
+  font-family: "SitkaSmall-Bold";
   font-size: 55px;
   color: #0b0b0b;
   font-weight: normal;
@@ -431,14 +434,7 @@ nav ul li a {
   width: 25%;
   padding: 0 15px;
 }
-.help-sec ul li.active a.help-in p span,
-.help-sec ul li:hover .help-in p span {
-  color: #0d3b4c !important;
-}
-.help-sec ul li.active a.help-in p,
-.help-sec ul li:hover .help-in p {
-  color: #0d3b4c !important;
-}
+
 .help-sec ul li a {
   display: block;
 }
@@ -927,4 +923,15 @@ footer {
 
 .neue {
   font-family: "NeueHaasGroteskTextPro-Medium" !important;
+}
+
+.neue-bold {
+  font-family: "NeueHaasGroteskTextPro-Bold" !important;
+}
+
+.body-text-color {
+  color: #0d3b4c !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  letter-spacing: 0.1px !important;
 }

@@ -35,10 +35,10 @@ export default function Membership() {
                 </svg>
               </div>
             </div>
-            <h2 className="sitka mt-6 text-3xl font-extrabold text-gray-900 sm:text-4xl">
+            <h2 className="neue-bold mt-6 text-3xl font-extrabold text-gray-900 sm:text-4xl">
               JS.Social Current Stats
             </h2>
-            <p className="neue mt-6 text-lg text-gray-500">
+            <p className="neue body-text-color mt-6 text-lg text-gray-500">
               We've just started to out journey as a Community and Course.
               However even though we're at the beginning, we are proud of our
               students, mentors, and our stats!
@@ -46,26 +46,26 @@ export default function Membership() {
             <div className="mt-8 overflow-hidden">
               <dl className="-mx-8 -mt-8 flex flex-wrap">
                 <div className="flex flex-col px-8 pt-8">
-                  <dt className="neue order-2 text-lg font-medium text-gray-500">
+                  <dt className="neue body-text-color order-2 font-medium pt-4">
                     3
                   </dt>
-                  <dd className="sitka order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
+                  <dd className="neue-bold order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
                     Completed Projects with Groups
                   </dd>
                 </div>
                 <div className="flex flex-col px-8 pt-8">
-                  <dt className="neue order-2 text-lg font-medium text-gray-500">
+                  <dt className="neue body-text-color order-2 font-medium pt-4">
                     1 (Jae Lee)
                   </dt>
-                  <dd className="sitka order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
+                  <dd className="neue-bold order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
                     Mentor Count
                   </dd>
                 </div>
                 <div className="flex flex-col px-8 pt-8">
-                  <dt className="neue order-2 text-lg font-medium text-gray-500">
+                  <dt className="neue body-text-color order-2 font-medium pt-4">
                     1 (Mert Efe)
                   </dt>
-                  <dd className="sitka order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
+                  <dd className="neue-bold order-1 text-2xl font-extrabold text-gray-800 sm:text-3xl">
                     Students
                   </dd>
                 </div>
@@ -75,16 +75,16 @@ export default function Membership() {
         </div>
       </div>
 
-      <div className="bg-gray-600 mt-20">
+      <div className="mt-20 bg-gray-200">
         <div className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
           <div className="text-center">
-            <h2 className="sitka text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">
+            <h2 className="sitka text-lg leading-6 font-semibold text-black uppercase tracking-wider">
               PRICEMENTS FOR
             </h2>
-            <p className="sitka text-3xl tracking-wide py-4 font-extrabold text-white sm:text-4xl lg:text-5xl">
+            <p className="neue-bold text-3xl tracking-wide py-4 font-extrabold text-black sm:text-4xl lg:text-5xl">
               JS.SOCIAL MEMBERSHIP PACKAGES
             </p>
-            <p className="neue mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
+            <p className="neue body-text-color  mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
               We've created 3 types of packages for all kinds of developers who
               has different needs and specific instructors, according to their
               level, expertise, and where they currently are in their journey.
@@ -94,7 +94,7 @@ export default function Membership() {
 
         <div className="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
           <div className="relative z-0">
-            <div className="absolute inset-0 h-5/6 bg-gray-600 lg:h-2/3" />
+            <div className="absolute inset-0 h-5/6 lg:h-2/3" />
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="relative lg:grid lg:grid-cols-7">
                 <div className="mx-auto max-w-md lg:mx-0 lg:max-w-none lg:col-start-1 lg:col-end-3 lg:row-start-2 lg:row-end-3">
@@ -103,7 +103,7 @@ export default function Membership() {
                       <div className="bg-white px-6 py-10">
                         <div>
                           <h3
-                            className="sitka text-center text-2xl font-medium text-gray-900"
+                            className="text-center text-2xl font-medium neue"
                             id="tier-hobby"
                           >
                             Regular Membership
@@ -121,8 +121,8 @@ export default function Membership() {
                           </div>
                         </div>
                       </div>
-                      <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-400 p-6 bg-white sm:p-10 lg:p-6 xl:p-10">
-                        <ul className="space-y-4 neue">
+                      <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-900 p-6 bg-white sm:p-10 lg:p-6 xl:p-10">
+                        <ul className="space-y-4 neue body-text-color">
                           <li className="flex items-start">
                             <div className="flex-shrink-0">
                               <svg
@@ -141,7 +141,7 @@ export default function Membership() {
                                 />
                               </svg>
                             </div>
-                            <p className="ml-3 text-base font-medium text-gray-500">
+                            <p className="ml-3 neue body-text-color">
                               Weekly Video Lessons.
                             </p>
                           </li>
@@ -164,7 +164,7 @@ export default function Membership() {
                                 />
                               </svg>
                             </div>
-                            <p className="ml-3 text-base font-medium text-gray-500">
+                            <p className="ml-3 neue body-text-color">
                               Being able to ask questions and communicate on
                               Discord to Other Devs and to Mentors.
                             </p>
@@ -188,7 +188,7 @@ export default function Membership() {
                                 />
                               </svg>
                             </div>
-                            <p className="ml-3 text-base font-medium text-gray-500">
+                            <p className="ml-3 neue body-text-color">
                               Giving you a basic structure for what to learn and
                               do according to where you are for the best
                               efficient way of improving towards being a dev.
@@ -199,7 +199,7 @@ export default function Membership() {
                           <div className="rounded-lg shadow-md">
                             <a
                               href="#"
-                              className="neue block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-black hover:bg-gray-200"
+                              className="neue body-text-color block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 font-medium hover:bg-gray-200"
                               aria-describedby="tier-hobby"
                             >
                               Start your trial
@@ -218,7 +218,7 @@ export default function Membership() {
                     />
                     <div className="absolute inset-x-0 top-0 transform translate-y-px">
                       <div className="flex justify-center transform -translate-y-1/2">
-                        <span className="sitka inline-flex rounded-full bg-black px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
+                        <span className="inline-flex rounded-full bg-black px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
                           Most swift success ratio
                         </span>
                       </div>
@@ -226,7 +226,7 @@ export default function Membership() {
                     <div className="bg-white rounded-t-lg px-6 pt-12 pb-10">
                       <div>
                         <h3
-                          className="sitka text-center text-3xl font-semibold text-gray-900 sm:-mx-6"
+                          className="text-center text-3xl font-semibold text-gray-900 sm:-mx-6"
                           id="tier-growth"
                         >
                           Premium Membership
@@ -399,7 +399,7 @@ export default function Membership() {
                       <div className="bg-white px-6 py-10">
                         <div>
                           <h3
-                            className="sitka text-center text-2xl font-medium text-gray-900"
+                            className="text-center text-2xl font-medium text-gray-900"
                             id="tier-scale"
                           >
                             Advanced Membership
@@ -518,13 +518,13 @@ export default function Membership() {
 
       <div className="bg-gray-600">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-black sitka">
+          <h2 className="text-3xl font-extrabold text-black">
             Frequently asked questions
           </h2>
           <div className="mt-6 border-t border-indigo-300 border-opacity-25 pt-10">
             <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
               <div>
-                <dt className="sitka text-xl underline leading-6 text-black pb-4 font-bold">
+                <dt className="text-xl underline leading-6 text-black pb-4 font-bold">
                   Why should we pick JS.Social over other courses?
                 </dt>
                 <dd className="neue mt-2 text-base text-white font-normal tracking-wide">
@@ -540,7 +540,7 @@ export default function Membership() {
               </div>
 
               <div>
-                <dt className="sitka text-xl underline  leading-6 font-bold text-black pb-4">
+                <dt className="text-xl underline  leading-6 font-bold text-black pb-4">
                   What you do when there's no Mentor active on Discord?
                 </dt>
                 <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
@@ -556,7 +556,7 @@ export default function Membership() {
               </div>
 
               <div>
-                <dt className="sitka text-xl underline leading-6 font-bold text-black pb-4">
+                <dt className="text-xl underline leading-6 font-bold text-black pb-4">
                   How fast can I learn ?
                 </dt>
                 <dd className="neue mt-2 text-base text-white font-normal tracking-wide">
@@ -575,7 +575,7 @@ export default function Membership() {
               </div>
 
               <div>
-                <dt className="sitka text-xl underline leading-6 font-bold text-black pb-4">
+                <dt className="text-xl underline leading-6 font-bold text-black pb-4">
                   How can I approach this course so I can get the most benefit?
                 </dt>
                 <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
@@ -593,7 +593,7 @@ export default function Membership() {
               </div>
 
               <div>
-                <dt className="sitka text-xl underline leading-6 font-bold text-black pb-4">
+                <dt className="text-xl underline leading-6 font-bold text-black pb-4">
                   What happens after I finish this course?
                 </dt>
                 <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
@@ -610,7 +610,7 @@ export default function Membership() {
               </div>
 
               <div>
-                <dt className="sitka text-xl underline  leading-6 font-bold text-black pb-4">
+                <dt className="text-xl underline  leading-6 font-bold text-black pb-4">
                   Will Mentors help me with my Portfolio ?
                 </dt>
                 <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
