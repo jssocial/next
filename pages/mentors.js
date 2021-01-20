@@ -8,13 +8,16 @@ export default function Mentors() {
       <Nav />
 
       <div className="bg-white">
-        <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+        <div className="mx-auto py-12 px-4 max-w-4xl sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-              <h2 className="neue-bold text-3xl font-extrabold tracking-tight sm:text-4xl">
+              <h2 className="sitka block text-x1 text-center text-indigo-600 font-semibold tracking-wide uppercase">
                 Our Team
               </h2>
-              <p className="neue-bold text-xl body-text-color ">
+              <p className="neue-bold mt-2 py-6 block text-5xl text-center leading-8 font-extrabold tracking-tight text-gray-900 lg:4x1">
+                Mentor Profiles
+              </p>
+              <p className="mt-8 neue mt-8 text-xl body-text-color leading-8 text-center">
                 We are honored and proud to be representing to you our highly
                 skilled, patient and student-friendly Mentor Team.
               </p>

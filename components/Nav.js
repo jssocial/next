@@ -91,6 +91,11 @@ export default function Nav() {
                         <a> Contact Us </a>
                       </Link>
                     </li>
+                    <li>
+                      <Link href="/checkout">
+                        <a> Check out </a>
+                      </Link>
+                    </li>
                   </ul>
                 </nav>
                 <div className="login">

@@ -516,51 +516,45 @@ export default function Membership() {
         </div>
       </div>
 
-      <div className="bg-gray-600">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-          <h2 className="neue-bold text-3xl font-extrabold text-black">
-            Frequently asked questions
-          </h2>
-          <div className="mt-6 border-t border-indigo-300 border-opacity-50 pt-10">
-            <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
-              <div>
-                <dt className="neue-bold text-xl underline leading-6 text-black pb-4 font-bold">
-                  Why should we pick JS.Social over other courses?
-                </dt>
-                <dd className="neue mt-2 text-base text-white font-normal tracking-wide">
-                  <span>&#8220;</span>JS.Social is different inherently by the
+      <div className="bg-white">
+  <div className="max-w-7xl mx-auto py-16 px-4 divide-y-2 divide-gray-200 sm:py-24 sm:px-6 lg:px-8">
+    <h2 className="neue-bold text-3xl font-extrabold text-gray-900">
+      Frequently asked questions
+    </h2>
+    <div className="mt-6 pt-10">
+      <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
+        <div>
+          <dt className="neue-bold text-lg leading-6 font-medium text-gray-900">
+          Why should we pick JS.Social over other courses?
+          </dt>
+          <dd className="neue mt-2 text-base text-gray-500">
+          <span>&#8220;</span>JS.Social is different inherently by the
                   way it approaches learning & teaching. The idea here is that
                   the student learns by itself. However as it is more important
                   that the direction of the wind blow than if the wind blows or
                   not, your direction is very important too.<span>&#8221;</span>
-                  <p className="text-gray-700 pt-4 font-bold">
-                    <i>Answered by Mentor Jae Lee</i>
-                  </p>
-                </dd>
-              </div>
+          </dd>
+        </div>
 
-              <div>
-                <dt className="neue-bold text-xl underline  leading-6 font-bold text-black pb-4">
-                  What you do when there's no Mentor active on Discord?
-                </dt>
-                <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
-                  <span>&#8220;</span>You follow the instructions laid by your
+        <div>
+          <dt className="neue-bold text-lg leading-6 font-medium text-gray-900">
+          What you do when there's no Mentor active on Discord?
+          </dt>
+          <dd className="neue mt-2 text-base text-gray-500">
+          <span>&#8220;</span>You follow the instructions laid by your
                   main mentor at the start of your membership. As a general
                   start point, the Mentor according to your Membership Package
                   draws a Path for you and you're expected to walk the walk and
                   code the code. :)<span>&#8221;</span>
-                  <p className="neue text-gray-700 pt-4 font-bold">
-                    <i className="neue">Answered by Mentor Jae Lee</i>
-                  </p>
-                </dd>
-              </div>
+          </dd>
+        </div>
 
-              <div>
-                <dt className="neue-bold text-xl underline leading-6 font-bold text-black pb-4">
-                  How fast can I learn ?
-                </dt>
-                <dd className="neue mt-2 text-base text-white font-normal tracking-wide">
-                  <span>&#8220;</span>Swiftness varies person to person however,
+        <div>
+          <dt className="neue-bold text-lg leading-6 font-medium text-gray-900">
+          How fast can I learn ?
+          </dt>
+          <dd className="neue mt-2 text-base text-gray-500">
+          <span>&#8220;</span>Swiftness varies person to person however,
                   we want you to aim to the highest and not satisfied with just
                   basic bare entry levels. That is why we created Premium
                   Package, so that the students could improve upon just the bare{' '}
@@ -568,67 +562,55 @@ export default function Membership() {
                   own so they could start freelancing or do other projects on
                   their own than just becoming a junior developer.
                   <span>&#8221;</span>
-                  <p className="neue text-gray-700 pt-4 font-bold">
-                    <i className="neue">Answered by Mentor Jae Lee</i>
-                  </p>
-                </dd>
-              </div>
+          </dd>
+        </div>
 
-              <div>
-                <dt className="neue-bold text-xl underline leading-6 font-bold text-black pb-4">
-                  How can I approach this course so I can get the most benefit?
-                </dt>
-                <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
-                  <span>&#8220;</span>In a mindset of explorer, persistent,
+        <div>
+          <dt className="neue-bold text-lg leading-6 font-medium text-gray-900">
+          How can I approach this course so I can get the most benefit?
+          </dt>
+          <dd className="neue mt-2 text-base text-gray-500">
+          <span>&#8220;</span>In a mindset of explorer, persistent,
                   stubborn mindset is what you need. The road may get rough,
                   bumpy at times, but if you persist through that hardness you
                   will get confidence in your abilities. Programming is solving
                   problems and generating solutions quickly, to be able to get
                   that level, you will have to persist when you can't.
                   <span>&#8221;</span>
-                  <p className="neue text-gray-700 pt-4 font-bold">
-                    <i className="neue">Answered by Mentor Jae Lee</i>
-                  </p>
-                </dd>
-              </div>
+          </dd>
+        </div>
 
-              <div>
-                <dt className="neue-bold text-xl underline leading-6 font-bold text-black pb-4">
-                  What happens after I finish this course?
-                </dt>
-                <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
-                  <span>&#8220;</span>There's no end time for the course you can
+        <div>
+          <dt className="neue-bold text-lg leading-6 font-medium text-gray-900">
+          What happens after I finish this course?
+          </dt>
+          <dd className="neue mt-2 text-base text-gray-500">
+          <span>&#8220;</span>There's no end time for the course you can
                   expand your Membership whenever it ends, or upgrade it to a
                   more advanced one. However even if you finish our smallest
                   package for a month, we believe you will have a great value
                   from that course and will be informed in a good level.
                   <span>&#8221;</span>
-                  <p className="neue text-gray-700 pt-4 font-bold">
-                    <i className="neue">Answered by Mentor Jae Lee</i>
-                  </p>
-                </dd>
-              </div>
+          </dd>
+        </div>
 
-              <div>
-                <dt className="neue-bold text-xl underline  leading-6 font-bold text-black pb-4">
-                  Will Mentors help me with my Portfolio ?
-                </dt>
-                <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
-                  <span>&#8220;</span>You will be able to put the Group Projects
+        <div>
+          <dt className="neue-bold text-lg leading-6 font-medium text-gray-900">
+          Will Mentors help me with my Portfolio ?
+          </dt>
+          <dd className="neue mt-2 text-base text-gray-500">
+          <span>&#8220;</span>You will be able to put the Group Projects
                   to your portfolio if you've taken the Premium Membership, and
                   that will make you standout at high level ! Other than that
                   our Front End Mentor Team will inspect your Portfolio and will
                   give you the most realest sector-level headed advice to
                   improve upon.<span>&#8221;</span>
-                  <p className="neue text-gray-700 pt-4 font-bold">
-                    <i className="neue">Answered by Mentor Jae Lee</i>
-                  </p>
-                </dd>
-              </div>
-            </dl>
-          </div>
+          </dd>
         </div>
-      </div>
+      </dl>
+    </div>
+  </div>
+</div>
 
       <Footer />
     </div>

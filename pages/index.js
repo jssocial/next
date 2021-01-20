@@ -43,7 +43,7 @@ export default function Home() {
         <div className="help">
           <div className="container">
             <div className="help-sec">
-              <p className="neue">What do you get</p>
+              <p className="neue-bold">What do you get</p>
               <h2>Membership Benefits</h2>
               <ul className="clearfix">
                 <li className="active">
@@ -151,13 +151,13 @@ export default function Home() {
         <div className="social">
           <div className="container">
             <div className="social-sec">
-              <p className="">What is JS.social</p>
+              <p className="neue-bold">What is JS.social</p>
               <h2 className="">A network of mentors and students</h2>
               <div className="social-in">
                 <div className="social-in-left">
                   <ul className="clearfix">
                     <li>
-                      <h3 className="">Code with world-class developers</h3>
+                      <h3 className="neue-bold">Code with world-class developers</h3>
                       <p className="neue">
                         We are a network of Javascript developers who have real
                         jobs and possess decades of real-life experience who
@@ -168,7 +168,7 @@ export default function Home() {
                       </p>
                     </li>
                     <li style={{ marginTop: '60px' }}>
-                      <h3 className="">We make learning a life-style</h3>
+                      <h3 className="neue-bold">We make learning a life-style</h3>
                       <p className="neue">
                         We provide a private Discord room where we either
                         provide support, mentor, and guide our members to
@@ -217,7 +217,10 @@ export default function Home() {
                 curriculums to craft and hone their skills.”
               </p>
             </div>
-            <p className="neue" style={{ textAlign: 'center', paddingTop: '20px' }}>
+            <p
+              className="neue"
+              style={{ textAlign: 'center', paddingTop: '20px' }}
+            >
               Jae Lee, JS.social mentor
             </p>
           </div>

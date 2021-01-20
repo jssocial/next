@@ -86,12 +86,13 @@ export default function About() {
                     <div>
                       <div className="max-w-prose mx-auto lg:max-w-none">
                         <p className="mb-5 body-text-color">
-                          Meet with our Mentor, Founder and CEO, <strong>Jae Lee.</strong> He
-                          offers consultations and best practices on the way to
-                          becoming a fully developed full stack developer. He
-                          gives the most practical ways to approach to the
-                          problems, and provides paths so a person be able to
-                          think themselves out of the problems.
+                          Meet with our Mentor, Founder and CEO,{' '}
+                          <strong>Jae Lee.</strong> He offers consultations and
+                          best practices on the way to becoming a fully
+                          developed full stack developer. He gives the most
+                          practical ways to approach to the problems, and
+                          provides paths so a person be able to think themselves
+                          out of the problems.
                         </p>
                       </div>
                       <div className="prose body-text-color mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
