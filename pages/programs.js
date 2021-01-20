@@ -330,22 +330,22 @@ export default function Programs() {
               </p>
               <div className="relative self-center mt-6 bg-gray-100 rounded-lg p-0.5 flex sm:mt-8" />
             </div>
-            <div className="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4">
+            <div className="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-3">
               <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
                 <div className="p-6">
-                  <h2 className="text-3xl leading-6 neue font-bold text-gray-900">
-                    1. Month
+                  <h2 className="text-3xl leading-6 font-bold neue text-gray-900">
+                    1. & 2. Months
                   </h2>
-                  <p className="mt-4 text-xl text-gray-500">
-                    Entrance into the Web Development
+                  <p className="mt-4 text-xl  text-gray-500">
+                    Moving into the uncharted territories
                   </p>
-                  <p className="mt-8">
+                  <p className="mt-6">
                     <span className="text-2xl font-extrabold text-gray-900">
-                      Basics
+                      Front End
                     </span>
                     <br />
                     <span className="neue text-base font-medium text-gray-500">
-                      (HTML, CSS, GIT)
+                      ( HTML, CSS, Git, React, Next.js, Tailwind, Material UI )
                     </span>
                   </p>
                   <Link href="/membership">
@@ -355,11 +355,11 @@ export default function Programs() {
                   </Link>
                 </div>
                 <div className="pt-6 pb-8 px-6">
-                  <h3 className="neue text-md font-black tracking-wider text-gray-900 tracking-wide uppercase">
+                  <h3 className="text-md font-black tracking-wider text-gray-900 tracking-wide uppercase">
                     What's included
                   </h3>
-                  <ul className="mt-6 space-y-4 neue">
-                    <li className="flex space-x-3">
+                  <ul className="mt-6 space-y-4">
+                  <li className="flex space-x-3">
                       <svg
                         className="flex-shrink-0 h-5 w-5 text-green-500"
                         xmlns="http://www.w3.org/2000/svg"
@@ -398,38 +398,6 @@ export default function Programs() {
                         into a repo first time.
                       </span>
                     </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
-                <div className="p-6">
-                  <h2 className="text-3xl leading-6 font-bold neue text-gray-900">
-                    2. Month
-                  </h2>
-                  <p className="sitk mt-4 text-xl  text-gray-500">
-                    Moving into the uncharted territories
-                  </p>
-                  <p className="mt-6">
-                    <span className="text-2xl font-extrabold text-gray-900">
-                      Front End
-                    </span>
-                    <br />
-                    <span className="neue text-base font-medium text-gray-500">
-                      ( React, Next.js, Tailwind, Material UI )
-                    </span>
-                  </p>
-                  <Link href="/membership">
-                    <a className="neue mt-8 block tracking-widest w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">
-                      Start the Journey!
-                    </a>
-                  </Link>
-                </div>
-                <div className="pt-6 pb-8 px-6">
-                  <h3 className="text-md font-black tracking-wider text-gray-900 tracking-wide uppercase">
-                    What's included
-                  </h3>
-                  <ul className="mt-6 space-y-4">
                     <li className="flex space-x-3">
                       <svg
                         className="flex-shrink-0 h-5 w-5 text-green-500"
@@ -473,6 +441,7 @@ export default function Programs() {
                         development. A real step into becoming a real Dev.
                       </span>
                     </li>
+                    
                   </ul>
                 </div>
               </div>
@@ -493,7 +462,7 @@ export default function Programs() {
                     </span>
                   </p>
                   <Link href="/membership">
-                    <a className="mt-8 block tracking-widest w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">
+                    <a className="mt-14 block tracking-widest w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">
                       Start the Journey!
                     </a>
                   </Link>
