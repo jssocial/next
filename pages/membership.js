@@ -98,12 +98,12 @@ export default function Membership() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="relative lg:grid lg:grid-cols-7">
                 <div className="mx-auto max-w-md lg:mx-0 lg:max-w-none lg:col-start-1 lg:col-end-3 lg:row-start-2 lg:row-end-3">
-                  <div className="h-full flex flex-col rounded-lg shadow-lg overflow-hidden lg:rounded-none lg:rounded-l-lg">
+                  <div className="h-full flex flex-col rounded-lg shadow-lg  overflow-hidden lg:rounded-none lg:rounded-l-lg">
                     <div className="flex-1 flex flex-col">
                       <div className="bg-white px-6 py-10">
                         <div>
                           <h3
-                            className="text-center text-2xl font-medium neue"
+                            className="text-center text-2xl font-medium neue-bold"
                             id="tier-hobby"
                           >
                             Regular Membership
@@ -226,7 +226,7 @@ export default function Membership() {
                     <div className="bg-white rounded-t-lg px-6 pt-12 pb-10">
                       <div>
                         <h3
-                          className="text-center text-3xl font-semibold text-gray-900 sm:-mx-6"
+                          className="text-center neue-bold text-3xl font-semibold text-gray-900 sm:-mx-6"
                           id="tier-growth"
                         >
                           Premium Membership
@@ -244,10 +244,10 @@ export default function Membership() {
                         </div>
                       </div>
                     </div>
-                    <div className="border-t-2 border-gray-400 bg-white rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
+                    <div className="border-t-2 border-black bg-white rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
                       <ul className="space-y-4 neue">
                         <li className="flex items-start">
-                          <div className="flex-shrink-0">
+                          <div className="flex-shrink-0 ">
                             <svg
                               className="flex-shrink-0 h-6 w-6 text-green-500"
                               xmlns="http://www.w3.org/2000/svg"
@@ -264,7 +264,7 @@ export default function Membership() {
                               />
                             </svg>
                           </div>
-                          <p className="ml-3 text-base font-medium text-gray-500">
+                          <p className="body-text-color ml-3 text-base font-medium text-gray-500">
                             Offers all the benefits of Regular & Advanced
                             Membership Packages.
                           </p>
@@ -288,7 +288,7 @@ export default function Membership() {
                               />
                             </svg>
                           </div>
-                          <p className="ml-3 text-base font-medium text-gray-500">
+                          <p className="body-text-color ml-3 text-base font-medium text-gray-500">
                             Giving you the chance to join our group projects and
                             assessing you the proper to-do-lists and
                             instructions for your role in project and providing
@@ -317,7 +317,7 @@ export default function Membership() {
                               />
                             </svg>
                           </div>
-                          <p className="ml-3 text-base font-medium text-gray-500">
+                          <p className="body-text-color ml-3 text-base font-medium text-gray-500">
                             Mostly known and accepted as best way of learning by
                             the experienced developers, which is called{' '}
                             <strong>
@@ -345,7 +345,7 @@ export default function Membership() {
                               />
                             </svg>
                           </div>
-                          <p className="ml-3 text-base font-medium text-gray-500">
+                          <p className="body-text-color ml-3 text-base font-medium text-gray-500">
                             Heavy use of Github, Git between the team members
                             pushes you to get the most by learning how to use
                             those commands so you can use very easily in the
@@ -372,7 +372,7 @@ export default function Membership() {
                               />
                             </svg>
                           </div>
-                          <p className="ml-3 text-base font-medium text-gray-500">
+                          <p className="body-text-color ml-3 text-base font-medium text-gray-500">
                             Being able to work with highly motivated people, or
                             people who are more experienced, will keep you
                             pushing yourself forward.
@@ -399,7 +399,7 @@ export default function Membership() {
                       <div className="bg-white px-6 py-10">
                         <div>
                           <h3
-                            className="text-center text-2xl font-medium text-gray-900"
+                            className="text-center text-2xl font-medium text-gray-900 neue-bold"
                             id="tier-scale"
                           >
                             Advanced Membership
@@ -417,7 +417,7 @@ export default function Membership() {
                           </div>
                         </div>
                       </div>
-                      <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-400 p-6 bg-white sm:p-10 lg:p-6 xl:p-10">
+                      <div className="flex-1 flex flex-col justify-between border-t-2 border-black p-6 bg-white sm:p-10 lg:p-6 xl:p-10">
                         <ul className="space-y-4 neue ">
                           <li className="flex items-start">
                             <div className="flex-shrink-0">
@@ -437,7 +437,7 @@ export default function Membership() {
                                 />
                               </svg>
                             </div>
-                            <p className="ml-3 text-base font-medium text-gray-500">
+                            <p className="body-text-color ml-3 text-base font-medium text-gray-500">
                               Offers all the benefits of Regular Membership.
                             </p>
                           </li>
@@ -460,7 +460,7 @@ export default function Membership() {
                                 />
                               </svg>
                             </div>
-                            <p className="ml-3 text-base font-medium text-gray-500">
+                            <p className="body-text-color ml-3 text-base font-medium text-gray-500">
                               Weekly 1 on 1 Live Session with one of the Mentors
                               of your choosing.
                             </p>
@@ -484,7 +484,7 @@ export default function Membership() {
                                 />
                               </svg>
                             </div>
-                            <p className="ml-3 text-base font-medium text-gray-500">
+                            <p className="body-text-color ml-3 text-base font-medium text-gray-500">
                               Mentor giving you a path according to your
                               capabilities, and providing you the correct
                               mindset to adopt while learning. He assists you
@@ -499,7 +499,7 @@ export default function Membership() {
                           <div className="rounded-lg shadow-md">
                             <a
                               href="#"
-                              className="neue block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-black hover:bg-gray-200"
+                              className="neue body-text-color block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-black hover:bg-gray-200"
                               aria-describedby="tier-scale"
                             >
                               Start your trial
@@ -518,13 +518,13 @@ export default function Membership() {
 
       <div className="bg-gray-600">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-black">
+          <h2 className="neue-bold text-3xl font-extrabold text-black">
             Frequently asked questions
           </h2>
-          <div className="mt-6 border-t border-indigo-300 border-opacity-25 pt-10">
+          <div className="mt-6 border-t border-indigo-300 border-opacity-50 pt-10">
             <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
               <div>
-                <dt className="text-xl underline leading-6 text-black pb-4 font-bold">
+                <dt className="neue-bold text-xl underline leading-6 text-black pb-4 font-bold">
                   Why should we pick JS.Social over other courses?
                 </dt>
                 <dd className="neue mt-2 text-base text-white font-normal tracking-wide">
@@ -540,7 +540,7 @@ export default function Membership() {
               </div>
 
               <div>
-                <dt className="text-xl underline  leading-6 font-bold text-black pb-4">
+                <dt className="neue-bold text-xl underline  leading-6 font-bold text-black pb-4">
                   What you do when there's no Mentor active on Discord?
                 </dt>
                 <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
@@ -549,14 +549,14 @@ export default function Membership() {
                   start point, the Mentor according to your Membership Package
                   draws a Path for you and you're expected to walk the walk and
                   code the code. :)<span>&#8221;</span>
-                  <p className="text-gray-700 pt-4 font-bold">
-                    <i>Answered by Mentor Jae Lee</i>
+                  <p className="neue text-gray-700 pt-4 font-bold">
+                    <i className="neue">Answered by Mentor Jae Lee</i>
                   </p>
                 </dd>
               </div>
 
               <div>
-                <dt className="text-xl underline leading-6 font-bold text-black pb-4">
+                <dt className="neue-bold text-xl underline leading-6 font-bold text-black pb-4">
                   How fast can I learn ?
                 </dt>
                 <dd className="neue mt-2 text-base text-white font-normal tracking-wide">
@@ -568,14 +568,14 @@ export default function Membership() {
                   own so they could start freelancing or do other projects on
                   their own than just becoming a junior developer.
                   <span>&#8221;</span>
-                  <p className="text-gray-700 pt-4 font-bold">
-                    <i>Answered by Mentor Jae Lee</i>
+                  <p className="neue text-gray-700 pt-4 font-bold">
+                    <i className="neue">Answered by Mentor Jae Lee</i>
                   </p>
                 </dd>
               </div>
 
               <div>
-                <dt className="text-xl underline leading-6 font-bold text-black pb-4">
+                <dt className="neue-bold text-xl underline leading-6 font-bold text-black pb-4">
                   How can I approach this course so I can get the most benefit?
                 </dt>
                 <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
@@ -586,14 +586,14 @@ export default function Membership() {
                   problems and generating solutions quickly, to be able to get
                   that level, you will have to persist when you can't.
                   <span>&#8221;</span>
-                  <p className="text-gray-700 pt-4 font-bold">
-                    <i>Answered by Mentor Jae Lee</i>
+                  <p className="neue text-gray-700 pt-4 font-bold">
+                    <i className="neue">Answered by Mentor Jae Lee</i>
                   </p>
                 </dd>
               </div>
 
               <div>
-                <dt className="text-xl underline leading-6 font-bold text-black pb-4">
+                <dt className="neue-bold text-xl underline leading-6 font-bold text-black pb-4">
                   What happens after I finish this course?
                 </dt>
                 <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
@@ -603,14 +603,14 @@ export default function Membership() {
                   package for a month, we believe you will have a great value
                   from that course and will be informed in a good level.
                   <span>&#8221;</span>
-                  <p className="text-gray-700 pt-4 font-bold">
-                    <i>Answered by Mentor Jae Lee</i>
+                  <p className="neue text-gray-700 pt-4 font-bold">
+                    <i className="neue">Answered by Mentor Jae Lee</i>
                   </p>
                 </dd>
               </div>
 
               <div>
-                <dt className="text-xl underline  leading-6 font-bold text-black pb-4">
+                <dt className="neue-bold text-xl underline  leading-6 font-bold text-black pb-4">
                   Will Mentors help me with my Portfolio ?
                 </dt>
                 <dd className="neue mt-2 text-base  text-white font-normal tracking-wide">
@@ -620,8 +620,8 @@ export default function Membership() {
                   our Front End Mentor Team will inspect your Portfolio and will
                   give you the most realest sector-level headed advice to
                   improve upon.<span>&#8221;</span>
-                  <p className="text-gray-700 pt-4 font-bold">
-                    <i>Answered by Mentor Jae Lee</i>
+                  <p className="neue text-gray-700 pt-4 font-bold">
+                    <i className="neue">Answered by Mentor Jae Lee</i>
                   </p>
                 </dd>
               </div>

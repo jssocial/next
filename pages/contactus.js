@@ -20,10 +20,10 @@ export default function ContactUs() {
         <div className="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
           <div className="lg:pr-8">
             <div className="max-w-md mx-auto sm:max-w-lg lg:mx-0">
-              <h2 className="text-3xl sitka font-extrabold tracking-tight sm:text-4xl">
+              <h2 className="neue-bold text-3xl font-extrabold tracking-tight sm:text-4xl">
                 You may contact us.
               </h2>
-              <p className="mt-4 neue text-lg text-gray-500 sm:mt-3">
+              <p className="mt-4 neue body-text-color text-lg text-gray-500 sm:mt-3">
                 If you have any questions, whether related to packages,
                 membership deals, project information, or anything related to
                 this website or coding please don't hesitate from reaching us,
@@ -32,7 +32,7 @@ export default function ContactUs() {
               <form
                 action="#"
                 method="POST"
-                className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+                className="body-text-color mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
               >
                 <div>
                   <label
