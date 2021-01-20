@@ -122,42 +122,71 @@ export default function Programs() {
               </span>
             </h1>
             <p className="neue mt-8 text-xl body-text-color leading-8">
-              The Schedule will be also be given at the below, now it is time to explain our project, our aim and what you can expect from us at below.
+              The Schedule will be also be given at the below, now it is time to
+              explain our project, our aim and what you can expect from us at
+              below.
             </p>
           </div>
           <div className="mt-6 neue prose prose-indigo prose-lg  mx-auto">
             <p className="neue body-text-color">
-              Our aim is to teach JavaScript both in Backend and Frontend make the Student become efficient as possible in little time as possible.
-              <strong>JavaScript</strong> is counted as one of the most <strong>Popular</strong> programming language nowadays.
-              With its Frameworks, when a person learns to use them efficiently, it will improve both his programming knowledge incredibly and his
-              career. Nowadays React (in the Front End) and Node.js (in the Back End) are wanted everywhere in the world, whether as a Remote job,
-              or not, there are hundreds of possibilities if you know what you're doing. And our aim here is to prepare to you to the level that 
-              you know what you're doing.
+              Our aim is to teach JavaScript both in Backend and Frontend make
+              the Student become efficient as possible in little time as
+              possible.
+              <strong>JavaScript</strong> is counted as one of the most{' '}
+              <strong>Popular</strong> programming language nowadays. With its
+              Frameworks, when a person learns to use them efficiently, it will
+              improve both his programming knowledge incredibly and his career.
+              Nowadays React (in the Front End) and Node.js (in the Back End)
+              are wanted everywhere in the world, whether as a Remote job, or
+              not, there are hundreds of possibilities if you know what you're
+              doing. And our aim here is to prepare to you to the level that you
+              know what you're doing.
             </p>
             <ul className="neue body-text-color">
-              <li>There will be a 5 month long Journey till you reach to the Full Stack level at least. With required time and practice then everything happens.</li>
               <li>
-                You will be learning many frameworks of JavaScript and CSS. That means you have to prepare yourself and give yourself fully.
+                There will be a 5 month long Journey till you reach to the Full
+                Stack level at least. With required time and practice then
+                everything happens.
               </li>
-              <li>Things will take time to learn, just dedicate yourself and follow the Path that is given you by your Mentor.</li>
+              <li>
+                You will be learning many frameworks of JavaScript and CSS. That
+                means you have to prepare yourself and give yourself fully.
+              </li>
+              <li>
+                Things will take time to learn, just dedicate yourself and
+                follow the Path that is given you by your Mentor.
+              </li>
             </ul>
             <p className="neue body-text-color">
-              The Mentors will be assigned to you according to your needs and expertise and where you are in your Path. Those chosen mentors will give you a Path that you will be
-              following, what to learn next, what to practice next, how to use a Framework or Language, how to approach things, the mindset you have to follow,
-              basically all the things you need, they will explain and guide. But you will have to put the work. This is not a Magic course.
+              The Mentors will be assigned to you according to your needs and
+              expertise and where you are in your Path. Those chosen mentors
+              will give you a Path that you will be following, what to learn
+              next, what to practice next, how to use a Framework or Language,
+              how to approach things, the mindset you have to follow, basically
+              all the things you need, they will explain and guide. But you will
+              have to put the work. This is not a Magic course.
             </p>
             <h2 className="neue-bold">From beginner to expert in 5 months</h2>
             <p className="neue body-text-color">
-              Things will take time but if you dedicate yourself to this Course and to listen to the Mentors fully and practice what is being learned according to the instructions,
-              and finish the Final Project at the 5. Month, you will become a great Developer.
+              Things will take time but if you dedicate yourself to this Course
+              and to listen to the Mentors fully and practice what is being
+              learned according to the instructions, and finish the Final
+              Project at the 5. Month, you will become a great Developer.
             </p>
-            
-              <p className="neue body-text-color">
-              <blockquote className="neue body-text-color">No great thing is created suddenly, any more than a bunch of grapes or a fig. If you tell me that you desire a fig, I answer that there must be time. Let it first blossom, then bear fruit, then ripen.</blockquote> - Epictetus
-              </p>
-           
+
             <p className="neue body-text-color">
-              Immerse yourself in the wonderful and creative world of JavaScript and reap the benefits for your career. It starts now.
+              <blockquote className="neue body-text-color">
+                No great thing is created suddenly, any more than a bunch of
+                grapes or a fig. If you tell me that you desire a fig, I answer
+                that there must be time. Let it first blossom, then bear fruit,
+                then ripen.
+              </blockquote>{' '}
+              - Epictetus
+            </p>
+
+            <p className="neue body-text-color">
+              Immerse yourself in the wonderful and creative world of JavaScript
+              and reap the benefits for your career. It starts now.
             </p>
             <figure>
               <img
@@ -168,21 +197,36 @@ export default function Programs() {
                 height="873"
               />
               <figcaption>
-                <p className="neue"><i>Mentor Jae Lee in 1 on 1 Live Session.</i></p>
+                <p className="neue">
+                  <i>Mentor Jae Lee in 1 on 1 Live Session.</i>
+                </p>
               </figcaption>
             </figure>
-            <h2 className="neue-bold">Everything you need to get up and running</h2>
-            <p className="neue body-text-color"> 
-              In the below Path Schedule, Monthly Material and Course aim will be explained very clearly. To also mention about them a bit here
-              in the 1. Month we will be diving deep into the Basics of Web Development which is HTML, CSS and of course Git,
-              after learning and practicing these we will dive into the 2. Month material Front End, Front End is the Gate of Web Development and almost everything goes pass through here,
-              if you learn and practice that with vigor, you will get good in no time. We will be teaching and giving you instructions and materials related to learning the JavaScript Framework React,
-              and React Framework Next.js, and some CSS Frameworks Material UI and TailwindCSS, this will be the hardest month and obstacle of your coding journey, however yet if you pass this one, the brakes will fall of 
-              and you will go full speed to becoming a Dev.
+            <h2 className="neue-bold">
+              Everything you need to get up and running
+            </h2>
+            <p className="neue body-text-color">
+              In the below Path Schedule, Monthly Material and Course aim will
+              be explained very clearly. To also mention about them a bit here
+              in the 1. Month we will be diving deep into the Basics of Web
+              Development which is HTML, CSS and of course Git, after learning
+              and practicing these we will dive into the 2. Month material Front
+              End, Front End is the Gate of Web Development and almost
+              everything goes pass through here, if you learn and practice that
+              with vigor, you will get good in no time. We will be teaching and
+              giving you instructions and materials related to learning the
+              JavaScript Framework React, and React Framework Next.js, and some
+              CSS Frameworks Material UI and TailwindCSS, this will be the
+              hardest month and obstacle of your coding journey, however yet if
+              you pass this one, the brakes will fall of and you will go full
+              speed to becoming a Dev.
             </p>
             <p className="neue body-text-color">
-              On th 3. Month we will be going into the other side of the coin which is the Backend, Backend is where the logic behind the screen happens, the Database,
-              Logical coding and creating Algorithms to make every operation smooth and without a problem, Error Handling, User Authentications, and many more. 
+              On th 3. Month we will be going into the other side of the coin
+              which is the Backend, Backend is where the logic behind the screen
+              happens, the Database, Logical coding and creating Algorithms to
+              make every operation smooth and without a problem, Error Handling,
+              User Authentications, and many more.
             </p>
           </div>
         </div>
